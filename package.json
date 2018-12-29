@@ -2,11 +2,14 @@
   "name": "dacharat-github-page",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dacharat.github.io/",
   "dependencies": {
+    "bootstrap": "^4.2.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.2",
-    "homepage": "https://dacharat.github.io/"
+    "react-scroll": "^1.7.10",
+    "styled-components": "^4.1.3"
   },
   "scripts": {
     "start": "react-scripts start",
