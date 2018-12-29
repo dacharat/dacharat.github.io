@@ -5,8 +5,10 @@
   "homepage": "https://dacharat.github.io/",
   "dependencies": {
     "bootstrap": "^4.2.1",
+    "font-awesome": "^4.7.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-fontawesome": "^1.6.1",
     "react-scripts": "2.1.2",
     "react-scroll": "^1.7.10",
     "styled-components": "^4.1.3"

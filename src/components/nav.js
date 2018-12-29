@@ -4,50 +4,45 @@ import styled from 'styled-components'
 
 const Nav = styled.nav`
   background-color: white;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
-  padding: 0 !important;
+  box-shadow: 0px 1px 5px grey;
+  padding: 3px !important;
   transition: all 300ms;
 `
 
 const NavItem = styled.span.attrs({
   className: 'nav-item'
 })`
-  color: black;
   font-size: 18px;
 `
 
 const NavbarBrand = styled.a.attrs({
   className: 'navbar-brand'
 })`
-  margin: 6px 16px;
+  margin: 5px 15px;
+  cursor: pointer;
 `
 
 const ScrollLink = styled(Link).attrs({
-  activeClass: 'active',
+  activeClass: "active",
   spy: true,
-  smooth: 'easeInOutQuint',
+  smooth: true,
   duration: 800
 })`
   cursor: pointer;
-  padding: 13px;
+  padding: 12px;
   transition: background 200ms;
   &:hover {
-    background-color: #f2f2f2;
+    background-color: #f7f7f7;
   }
-`
+`;
 
 const NavBar = () => (
   <Nav className='navbar navbar-light navbar-expand-lg sticky-top'>
     <div className='container-fluid mx-lg-4'>
       <NavbarBrand href='/'>
-        <b className='mx-2'>
-           
-        </b>
+        Dacharat
       </NavbarBrand>
       <div className='navbar-nav d-none d-lg-flex'>
-        <ScrollLink to='home' offset={-100}>
-          <NavItem>  Home </NavItem>
-        </ScrollLink>
         <ScrollLink to='about' offset={-80}>
           <NavItem>  About </NavItem>
         </ScrollLink>
