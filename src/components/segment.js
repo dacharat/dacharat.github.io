@@ -1,6 +1,11 @@
 import React from "react";
 import FontAwesome from "react-fontawesome";
-import { Content } from "./component";
+import styled from "styled-components";
+
+const Content = styled.div`
+  margin-top: 15px;
+  font-size: 30px;
+`;
 
 const Segment = ({icon, name, component}) => {
   return (
