@@ -11,7 +11,7 @@ const myExperience = [
     name: "Internship at Glazziq",
     image: glazziq,
     describe: [
-      "Eyewear e-commerce ",
+      "Eyewear e-commerce",
       "04/06/2018 - 03/08/2018",
       "Ruby on rails",
       "React",
@@ -23,8 +23,8 @@ const myExperience = [
 
 const Body = () => {
   return myExperience.map((experience, i) => (
-    <Flip top>
-      <ExperienceCard key={i} data={experience} />
+    <Flip top key={i}>
+      <ExperienceCard data={experience} />
     </Flip>
   ));
 };

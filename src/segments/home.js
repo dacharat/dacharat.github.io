@@ -4,6 +4,7 @@ import styled from "styled-components";
 import Nav from "./nav";
 import About from "./about";
 import Experience from "./experiences";
+import Project from './projects'
 
 const Component = styled.div.attrs({
   className: "container"
@@ -12,8 +13,7 @@ const Component = styled.div.attrs({
 `;
 
 const Home = () => {
-  return (
-    <React.Fragment>
+  return <React.Fragment>
       <Nav />
       <Component className="container">
         <Element name="about">
@@ -22,9 +22,11 @@ const Home = () => {
         <Element name="experiences">
           <Experience />
         </Element>
+        <Element name="projects">
+          <Project />
+        </Element>
       </Component>
-    </React.Fragment>
-  );
+    </React.Fragment>;
 };
 
 export default Home;
