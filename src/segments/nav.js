@@ -46,8 +46,8 @@ const NavBar = () => (
         <ScrollLink to='about' offset={-80}>
           <NavItem>  About </NavItem>
         </ScrollLink>
-        <ScrollLink to='achievements' offset={-90}>
-          <NavItem> Achievements </NavItem>
+        <ScrollLink to='experiences' offset={-90}>
+          <NavItem> Experiences </NavItem>
         </ScrollLink>
         <ScrollLink to='projects' offset={-90}>
           <NavItem>  Projects </NavItem>

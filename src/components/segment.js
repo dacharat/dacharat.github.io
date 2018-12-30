@@ -12,6 +12,7 @@ const Segment = ({icon, name, component}) => {
       </Content>
       <hr />
       {component}
+      <hr />
     </div>
   );
 };

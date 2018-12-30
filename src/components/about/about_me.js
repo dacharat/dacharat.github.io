@@ -34,7 +34,7 @@ const Body = (
 );
 
 const AboutMe = () => {
-  return <Segment icon="user-circle" name="About Me" component={Body} />;
+  return <Segment icon="user" name="About Me" component={Body} />;
 };
 
 export default AboutMe;
