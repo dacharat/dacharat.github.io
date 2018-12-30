@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import FontAwesome from "react-fontawesome";
 import profile from "../../assets/profile.png";
-import { Content } from "../component";
+import Segment from "../segment";
 
 const Img = styled.img`
   border-radius: 50%;
@@ -15,31 +14,27 @@ const Left = styled.div.attrs({
 const Paragraph = styled.p`
   border-radius: 10px;
   background-color: #e7e7e7;
-  padding: 10px;
+  padding: 12px;
 `;
 
+const Body = (
+  <div className="row">
+    <Left>
+      <Img src={profile} alt="MyPicture" />
+    </Left>
+    <div className="col-md-6 m-auto">
+      <Paragraph>
+        {" "}
+        Hi, I'm <b>Dacharat</b>. I'm currently a Software Developer student at
+        Kasetsart University. Nowadays, technology is growing rapidly. I want to
+        develop a modern Software for human.
+      </Paragraph>
+    </div>
+  </div>
+);
+
 const AboutMe = () => {
-  return <div>
-      <Content className="container content-container">
-        <p>
-          <FontAwesome name="user-circle" /> About Me
-        </p>
-      </Content>
-      <hr />
-      <div className="row">
-        <Left>
-          <Img src={profile} alt="MyPicture" />
-        </Left>
-        <div className="col-md-6 m-auto">
-          <Paragraph>
-            {" "}
-            Hi, I'm <b>
-              Dacharat
-            </b>. I'm currently a Software Developer student at Kasetsart University. I'm interesting in Web Developer. Now I'm looking for an internship about Software Develoment. If you are interested, feel free to contact me.
-          </Paragraph>
-        </div>
-      </div>
-    </div>;
+  return <Segment icon="user-circle" name="About Me" component={Body} />;
 };
 
 export default AboutMe;
