@@ -28,11 +28,17 @@ const projects = [
 ];
 
 const Body = () => {
-  return projects.map((project, i) => (
-    <LightSpeed left key={i}>
-      <ProjectCard data={project}/>
-    </LightSpeed>
-  ));
+  return projects.map((project, i) => ({
+    ...(i % 2 === 0 ? (
+      <LightSpeed left key={i}>
+        <ProjectCard data={project} />
+      </LightSpeed>
+    ) : (
+      <LightSpeed right key={i}>
+        <ProjectCard data={project} />
+      </LightSpeed>
+    ))
+  }));
 };
 
 const ProjectList = () => {
