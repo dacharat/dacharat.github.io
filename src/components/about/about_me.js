@@ -9,12 +9,14 @@ const Img = styled.img`
   padding: 0.7em;
 `;
 const Left = styled.div.attrs({
-  className: "col-md-6"
+  className: "col-md-6 text-center"
 })``;
 const Paragraph = styled.p`
   border-radius: 10px;
   background-color: #e7e7e7;
   padding: 12px;
+  width: 90%;
+  margin: auto;
 `;
 
 const Body = (
@@ -22,7 +24,7 @@ const Body = (
     <Left>
       <Img src={profile} alt="MyPicture" />
     </Left>
-    <div className="col-md-6 m-auto">
+    <div className="col-md-6 m-auto text-center">
       <Paragraph>
         {" "}
         Hi, I'm <b>Dacharat</b>. I'm currently a Software Developer student at

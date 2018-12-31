@@ -2,7 +2,9 @@ import React from "react";
 import FontAwesome from "react-fontawesome";
 import styled from "styled-components";
 
-const Content = styled.div`
+const Content = styled.div.attrs({
+  className: 'text-center'
+})`
   margin-top: 15px;
   font-size: 30px;
 `;
