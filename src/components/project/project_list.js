@@ -31,29 +31,32 @@ const projects = [
     describe:
       "Group project to create an e-commerce web application that sells OTOP products. This project working on full-stack web developer use ReactJS and Express.",
     url: "https://github.com/InsanelyGood/InsanelyGood-OTOP",
-    image: [
-      { src: otop_first },
-      { src: otop_second },
-      { src: otop_third },
-      { src: otop_fourth },
-      { src: otop_fifth },
-      { src: otop_sixth }
+    images: [
+      otop_first,
+      otop_second,
+      otop_third,
+      otop_fourth,
+      otop_fifth,
+      otop_sixth
     ]
   },
   {
     name: "IP subnet calculator",
     describe: "Group project to create IP subnet calaulator.",
-    url: "https://github.com/dacharat/IP-subnet-calculator"
+    url: "https://github.com/dacharat/IP-subnet-calculator",
+    images: [ip_first, ip_second]
   },
   {
     name: "Math Master Game",
     describe: "Final project in OOP class, use Java to make application.",
-    url: "https://github.com/dacharat/Math-Master-Game"
+    url: "https://github.com/dacharat/Math-Master-Game",
+    images: [math_first, math_second, math_third, math_fourth]
   },
   {
     name: "Took-took-4.0",
     describe: "Group project to create IoT(Internet of Things) application. ",
-    url: "https://github.com/took-took-4/took-took4"
+    url: "https://github.com/took-took-4/took-took4",
+    images: [tt_first, tt_second]
   }
 ];
 

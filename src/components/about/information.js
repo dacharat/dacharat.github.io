@@ -1,12 +1,12 @@
 import React from "react";
 import Segment from "../segment";
-import Data from './data'
+import Data from "./data";
 
 const myAge = () => {
-  let myBirthday = new Date(1998, 2, 28)
+  let myBirthday = new Date(1998, 2, 28);
   let diff_ms = Date.now() - myBirthday.getTime();
   return Math.abs(new Date(diff_ms).getUTCFullYear() - 1970);
-}
+};
 
 const Body = (
   <div className="row">
@@ -25,7 +25,7 @@ const Body = (
 
 const Information = () => {
   return (
-    <Segment icon="user-circle" name="Personal Information" component={Body} />
+    <Segment icon="address-card" name="Personal Information" component={Body} />
   );
 };
 
