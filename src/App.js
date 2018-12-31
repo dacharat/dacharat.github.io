@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Element } from "react-scroll";
 import styled from "styled-components";
+import Head from './segments/head'
 import Nav from "./segments/nav";
 import About from "./segments/about";
 import Experience from "./segments/experiences";
@@ -16,6 +17,7 @@ class App extends Component {
   render() {
     return <React.Fragment>
         <Nav />
+        <Head />
         <Body className="container">
           <Element name="about">
             <About />
