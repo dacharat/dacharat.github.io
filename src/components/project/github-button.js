@@ -3,14 +3,15 @@ import FontAwesome from "react-fontawesome";
 import styled from "styled-components";
 
 const Button = styled.a.attrs({
-  className: "btn border-primary"
+  className: "btn border-dark"
 })`
   border-radius: 100px !important;
+  padding: 2px 7px !important;
 `;
 const Message = styled.span`
-  padding: auto;
-  margin-left: 10px;
-  transition: 2s;
+  item-align: center;
+  justify-content: center;
+  margin: 0px 10px;
 `;
 
 class GithubButton extends React.Component {
