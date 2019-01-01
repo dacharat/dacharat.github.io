@@ -33,8 +33,8 @@ const Cover = () => {
   return (
     <HeadContainer>
       <picture>
-        <source media="(max-width: 480px)" srcset={cover_mobile} />
-        <source media="(max-width: 800px)" srcset={cover_tablet} />
+        <source media="(max-width: 480px)" srcSet={cover_mobile} />
+        <source media="(max-width: 800px)" srcSet={cover_tablet} />
         <Img src={cover_pc} alt="Chris standing up holding his daughter Elva" />
       </picture>
       <InImage>

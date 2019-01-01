@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Element } from "react-scroll";
 import styled from "styled-components";
-import Cover from './segments/cover'
+import Cover from "./segments/cover";
 import Nav from "./segments/nav";
 import About from "./segments/about";
 import Experience from "./segments/experiences";
 import Project from "./segments/projects";
-import Contact from './segments/contact'
+import Contact from "./segments/contact";
 
 const Body = styled.div.attrs({
   className: "container"
@@ -15,7 +15,8 @@ const Body = styled.div.attrs({
 `;
 class App extends Component {
   render() {
-    return <React.Fragment>
+    return (
+      <React.Fragment>
         <Nav />
         <Cover />
         <Body className="container">
@@ -32,7 +33,8 @@ class App extends Component {
             <Contact />
           </Element>
         </Body>
-      </React.Fragment>;
+      </React.Fragment>
+    );
   }
 }
 
