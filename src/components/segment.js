@@ -3,16 +3,16 @@ import FontAwesome from "react-fontawesome";
 import styled from "styled-components";
 
 const Content = styled.div.attrs({
-  className: 'text-center'
+  className: "text-center container"
 })`
   margin-top: 15px;
   font-size: 30px;
 `;
 
-const Segment = ({icon, name, component}) => {
+const Segment = ({ icon, name, component }) => {
   return (
-    <div className='mt-3'>
-      <Content className="container content-container">
+    <div className="mt-3">
+      <Content>
         <p>
           <FontAwesome name={icon} /> {name}
         </p>

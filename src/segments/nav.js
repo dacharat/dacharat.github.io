@@ -23,7 +23,6 @@ const NavbarBrand = styled.a.attrs({
 `
 
 const ScrollLink = styled(Link).attrs({
-  activeClass: "active",
   spy: true,
   smooth: true,
   duration: 800
