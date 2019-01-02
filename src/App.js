@@ -22,6 +22,7 @@ const Body = styled.div.attrs({
 })`
   max-width: 900px !important;
 `;
+
 class App extends Component {
   render() {
     return (
@@ -30,18 +31,18 @@ class App extends Component {
         <Nav />
         <Cover />
         <Body className="container">
-          <Element name="about">
-            <About />
-          </Element>
-          <Element name="experiences">
-            <Experience />
-          </Element>
-          <Element name="projects">
-            <Project />
-          </Element>
-          <Element name="contact">
-            <Contact />
-          </Element>
+            <Element name="about">
+              <About />
+            </Element>
+            <Element name="experiences">
+              <Experience />
+            </Element>
+            <Element name="projects">
+              <Project />
+            </Element>
+            <Element name="contact">
+              <Contact />
+            </Element>
         </Body>
       </React.Fragment>
     );
