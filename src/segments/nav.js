@@ -19,7 +19,7 @@ const NavItem = styled.span.attrs({
 `;
 
 const NavbarBrand = styled.a.attrs({
-  className: "navbar-brand"
+  className: "navbar-brand font-weight-bold"
 })`
   margin: 5px 15px;
   cursor: pointer;

@@ -8,6 +8,15 @@ import Experience from "./segments/experiences";
 import Project from "./segments/projects";
 import Contact from "./segments/contact";
 
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css?family=Baloo|Special+Elite|Happy+Monkey');
+  * {
+  font-family: "Happy Monkey", cursive;
+  }
+`;
+
 const Body = styled.div.attrs({
   className: "container"
 })`
@@ -17,6 +26,7 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
+        <GlobalStyle />
         <Nav />
         <Cover />
         <Body className="container">

@@ -8,7 +8,7 @@ const ToggleButton = styled.span`
   z-index: 1;
 `;
 
-const ToggleMenu = styled.div`
+const Menu = styled.div`
   position: fixed;
   padding-top: 50px;
   right: 0;
@@ -44,13 +44,9 @@ class Toggle extends React.Component {
     return (
       <React.Fragment>
         <ToggleButton onClick={this.toggleHandler}>
-          <FontAwesome
-            style={{ color: "#4f4f4f" }}
-            size="lg"
-            name={this.state.isOpen ? "close" : "bars"}
-          />
+          <FontAwesome name={this.state.isOpen ? "close" : "bars"} size="lg" />
         </ToggleButton>
-        <ToggleMenu isOpen={this.state.isOpen}>
+        <Menu isOpen={this.state.isOpen}>
           <ScrollLink onClick={this.toggleHandler} to="about" offset={-80}>
             About
           </ScrollLink>
@@ -67,7 +63,7 @@ class Toggle extends React.Component {
           <ScrollLink onClick={this.toggleHandler} to="contact" offset={-80}>
             Contact
           </ScrollLink>
-        </ToggleMenu>
+        </Menu>
       </React.Fragment>
     );
   }
