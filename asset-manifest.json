@@ -1,9 +1,9 @@
 {
-  "main.js": "/static/js/main.e0732dbd.chunk.js",
-  "main.js.map": "/static/js/main.e0732dbd.chunk.js.map",
+  "main.js": "/static/js/main.1b035b3f.chunk.js",
+  "main.js.map": "/static/js/main.1b035b3f.chunk.js.map",
   "static/css/1.f0f38b86.chunk.css": "/static/css/1.f0f38b86.chunk.css",
-  "static/js/1.0b8a5463.chunk.js": "/static/js/1.0b8a5463.chunk.js",
-  "static/js/1.0b8a5463.chunk.js.map": "/static/js/1.0b8a5463.chunk.js.map",
+  "static/js/1.79464e2c.chunk.js": "/static/js/1.79464e2c.chunk.js",
+  "static/js/1.79464e2c.chunk.js.map": "/static/js/1.79464e2c.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/first.png": "/static/media/first.840093ca.png",
@@ -29,9 +29,9 @@
   "static/media/cover-tablet.jpg": "/static/media/cover-tablet.bb4c6b29.jpg",
   "static/media/fifth.png": "/static/media/fifth.b1ef2fe8.png",
   "static/media/sixth.png": "/static/media/sixth.7329e21a.png",
-  "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.912ec66d.svg",
+  "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.674f50d2.eot",
   "static/css/1.f0f38b86.chunk.css.map": "/static/css/1.f0f38b86.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.76675090240751be57d215c64b59f304.js": "/precache-manifest.76675090240751be57d215c64b59f304.js",
+  "precache-manifest.70cb48fb98a357a4b9513672d99ea43b.js": "/precache-manifest.70cb48fb98a357a4b9513672d99ea43b.js",
   "service-worker.js": "/service-worker.js"
 }
