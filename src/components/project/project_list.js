@@ -1,7 +1,7 @@
 import React from "react";
 import Segment from "../segment";
 import ProjectCard from "./project_card";
-import { Bounce } from "react-reveal";
+import { Flip } from "react-reveal";
 
 // ip-subnet
 import ip_first from "../../assets/projects/ip-subnet/first.png";
@@ -63,13 +63,13 @@ const projects = [
 const Body = () => {
   return projects.map((project, i) => ({
     ...(i % 2 === 0 ? (
-      <Bounce left key={i}>
+      <Flip left key={i}>
         <ProjectCard data={project} />
-      </Bounce>
+      </Flip>
     ) : (
-      <Bounce right key={i}>
+      <Flip right key={i}>
         <ProjectCard data={project} />
-      </Bounce>
+      </Flip>
     ))
   }));
 };
