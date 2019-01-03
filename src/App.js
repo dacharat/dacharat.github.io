@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Element } from "react-scroll";
 import styled from "styled-components";
+
+// component
 import Cover from "./segments/cover";
 import Nav from "./segments/nav";
 import About from "./segments/about";
@@ -31,18 +33,18 @@ class App extends Component {
         <Nav />
         <Cover />
         <Body className="container">
-            <Element name="about">
-              <About />
-            </Element>
-            <Element name="experiences">
-              <Experience />
-            </Element>
-            <Element name="projects">
-              <Project />
-            </Element>
-            <Element name="contact">
-              <Contact />
-            </Element>
+          <Element name="about">
+            <About />
+          </Element>
+          <Element name="experiences">
+            <Experience />
+          </Element>
+          <Element name="projects">
+            <Project />
+          </Element>
+          <Element name="contact">
+            <Contact />
+          </Element>
         </Body>
       </React.Fragment>
     );
