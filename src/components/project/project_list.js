@@ -1,7 +1,7 @@
 import React from "react";
 import Segment from "../segment";
 import ProjectCard from "./project_card";
-import { Flip } from "react-reveal";
+import  Pulse  from "react-reveal/Pulse";
 
 // ip-subnet
 import ip_first from "../../assets/projects/ip-subnet/first.png";
@@ -61,21 +61,27 @@ const projects = [
 ];
 
 const Body = () => {
-  return projects.map((project, i) => ({
-    ...(i % 2 === 0 ? (
-      <Flip left key={i}>
-        <ProjectCard data={project} />
-      </Flip>
-    ) : (
-      <Flip right key={i}>
-        <ProjectCard data={project} />
-      </Flip>
-    ))
-  }));
-};
+  return projects.map((project, i) => <Pulse key={i}>
+    <ProjectCard data={project} />
+  </Pulse>)
+}
+
+// const Body = () => {
+//   return projects.map((project, i) => ({
+//     ...(i % 2 === 0 ? (
+//       <LightSpeed left key={i}>
+//         <ProjectCard data={project} />
+//       </LightSpeed>
+//     ) : (
+//       <LightSpeed right key={i}>
+//         <ProjectCard data={project} />
+//       </LightSpeed>
+//     ))
+//   }));
+// };
 
 const ProjectList = () => {
-  return <Segment icon="list-alt" name="Projects" component={Body()} />;
+  return <Segment icon="list-alt" name="Projects" component={<Body />} />;
 };
 
 export default ProjectList;

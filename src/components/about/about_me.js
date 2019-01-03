@@ -19,24 +19,26 @@ const Paragraph = styled.p`
   margin: auto;
 `;
 
-const Body = (
-  <div className="row">
-    <Left>
-      <Img src={profile} alt="MyPicture" />
-    </Left>
-    <div className="col-md-6 m-auto text-center">
-      <Paragraph>
-        {" "}
-        Hi, I'm <b>Dacharat</b>. I'm currently a Software Developer student at
-        Kasetsart University. Nowadays, technology is growing rapidly. I want to
-        develop a modern Software for human.
-      </Paragraph>
+const Body = () => {
+  return (
+    <div className="row">
+      <Left>
+        <Img src={profile} alt="MyPicture" />
+      </Left>
+      <div className="col-md-6 m-auto text-center">
+        <Paragraph>
+          {" "}
+          Hi, I'm <b>Dacharat</b>. I'm currently a Software Developer student at
+          Kasetsart University. Nowadays, technology is growing rapidly. I want
+          to develop a modern Software for human.
+        </Paragraph>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 const AboutMe = () => {
-  return <Segment icon="user-circle" name="About Me" component={Body} />;
+  return <Segment icon="user-circle" name="About Me" component={<Body />} />;
 };
 
 export default AboutMe;

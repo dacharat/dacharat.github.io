@@ -30,7 +30,7 @@ const Body = () => {
 };
 
 const ExperienceList = () => {
-  return <Segment icon="book" name="Experiences" component={Body()} />;
+  return <Segment icon="book" name="Experiences" component={<Body />} />;
 };
 
 export default ExperienceList;

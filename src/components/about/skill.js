@@ -73,7 +73,7 @@ const Body = () => {
 };
 
 const Skill = () => {
-  return <Segment icon="align-left" name="Skill" component={Body()} />;
+  return <Segment icon="align-left" name="Skill" component={<Body />} />;
 };
 
 export default Skill;

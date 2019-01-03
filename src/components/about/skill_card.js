@@ -12,10 +12,10 @@ const Body = body => {
     <div className="row text-center">
       {body.map((item, i) => (
         <div className="col s4 m2" key={i}>
-          <Lazyload once offset={80} >
+          <Lazyload height='90px' once offset={80} >
             <Img src={item.image} alt={item.name} />
-            <p>{item.name}</p>
           </Lazyload>
+            <p>{item.name}</p>
         </div>
       ))}
     </div>

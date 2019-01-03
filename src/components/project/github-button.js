@@ -7,11 +7,18 @@ const Button = styled.a.attrs({
 })`
   border-radius: 100px !important;
   padding: 2px 7px !important;
+  :hover span {
+    display: initial;
+  }
 `;
 const Message = styled.span`
+  @media (max-width: 768px) {
+    display: initial;
+  }
   item-align: center;
   justify-content: center;
   margin: 0px 10px;
+  display: none;
 `;
 
 class GithubButton extends React.Component {
@@ -28,8 +35,9 @@ class GithubButton extends React.Component {
   };
 
   renderMessage = () => {
-    if (this.state.mouseHover) return <Message>See in Github</Message>;
-    return null;
+    // if (this.state.mouseHover) return <Message>See in Github</Message>;
+    // return null;
+    return <Message>See in Github</Message>;
   };
 
   render() {
@@ -41,7 +49,8 @@ class GithubButton extends React.Component {
         onMouseLeave={this.onMouseLeave}
       >
         <FontAwesome name="github" size="2x" />
-        {this.renderMessage()}
+        <Message>See in Github</Message>
+        {/* {this.renderMessage()} */}
       </Button>
     );
   }

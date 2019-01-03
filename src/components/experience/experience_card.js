@@ -11,7 +11,7 @@ const Body = (image, describe) => {
   return (
     <div className="row">
       <div className="col m4 text-center">
-      <Lazyload once offset={80} >
+      <Lazyload height='250px' once offset={80} >
         <Img src={image} alt="No image" />
       </Lazyload>
       </div>
