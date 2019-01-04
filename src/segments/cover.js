@@ -42,13 +42,17 @@ class Cover extends React.Component {
           <source media="(max-width: 800px)" srcSet={cover_tablet} />
           <Img
             src={cover_pc}
-            onLoad={() => this.setState({ loaded: true })}
+            onLoad={() =>
+              this.setState({
+                loaded: true
+              })
+            }
             alt="Not found cover image"
           />
         </picture>
         {this.state.loaded && (
           <CoverDescription>
-            <Typing>
+            <Typing speed={20}>
               <Name>Dacharat Pankong</Name>
               <Job>Software Developer</Job>
             </Typing>

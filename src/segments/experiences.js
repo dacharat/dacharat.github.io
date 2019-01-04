@@ -1,5 +1,5 @@
 import React from "react";
-import ExperienceList from '../components/experience/experience_list'
+import ExperienceList from "../components/experience/experience_list";
 
 const Experience = () => {
   return (

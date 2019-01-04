@@ -8,9 +8,6 @@ const Img = styled.img`
   width: 70%;
   padding: 0.7em;
 `;
-const Left = styled.div.attrs({
-  className: "col-md-6 text-center"
-})``;
 const Paragraph = styled.p`
   border-radius: 10px;
   background-color: #e7e7e7;
@@ -22,9 +19,9 @@ const Paragraph = styled.p`
 const Body = () => {
   return (
     <div className="row">
-      <Left>
+      <div className="col-md-6 text-center">
         <Img src={profile} alt="MyPicture" />
-      </Left>
+      </div>
       <div className="col-md-6 m-auto text-center">
         <Paragraph>
           {" "}

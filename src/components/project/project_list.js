@@ -1,7 +1,7 @@
 import React from "react";
 import Segment from "../segment";
 import ProjectCard from "./project_card";
-import  Pulse  from "react-reveal/Pulse";
+import Pulse from "react-reveal/Pulse";
 
 // ip-subnet
 import ip_first from "../../assets/projects/ip-subnet/first.png";
@@ -61,10 +61,12 @@ const projects = [
 ];
 
 const Body = () => {
-  return projects.map((project, i) => <Pulse key={i}>
-    <ProjectCard data={project} />
-  </Pulse>)
-}
+  return projects.map((project, i) => (
+    <Pulse key={i}>
+      <ProjectCard data={project} />
+    </Pulse>
+  ));
+};
 
 // const Body = () => {
 //   return projects.map((project, i) => ({

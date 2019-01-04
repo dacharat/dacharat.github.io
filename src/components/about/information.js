@@ -18,7 +18,7 @@ const Body = () => {
       </div>
       <div className="col-md">
         <Data left="Birthday" right="28 Feb 1998" />
-        <Data left="Age" right={myAge()} />
+        <Data left="Age" right={myAge().toString()} />
         <Data left="Nationality" right="Thailand" />
       </div>
     </div>
@@ -27,7 +27,11 @@ const Body = () => {
 
 const Information = () => {
   return (
-    <Segment icon="address-card" name="Personal Information" component={<Body />} />
+    <Segment
+      icon="address-card"
+      name="Personal Information"
+      component={<Body />}
+    />
   );
 };
 

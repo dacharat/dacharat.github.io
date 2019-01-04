@@ -1,9 +1,9 @@
 import React from "react";
 import Card from "../card";
-// import FontAwesome from "react-fontawesome";
 import GithubButton from "./github-button";
+import PropTypes from "prop-types";
 
-const Body = data => {
+const Body = ({ data }) => {
   return (
     <div className="pl-2">
       <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{data.describe}</p>
@@ -13,7 +13,19 @@ const Body = data => {
 };
 
 const ProjectCard = ({ data }) => {
-  return <Card head={data.name} component={Body(data)} />;
+  return <Card head={data.name} component={<Body data={data} />} />;
+};
+
+ProjectCard.propTypes = {
+  right: PropTypes.object
+};
+ProjectCard.defaultProps = {
+  right: {
+    name: "nothing",
+    describe: "nothing",
+    url: "https://dacharat.github.io",
+    images: ["nothing"]
+  }
 };
 
 export default ProjectCard;

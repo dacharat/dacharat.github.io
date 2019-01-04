@@ -1,6 +1,7 @@
 import React from "react";
 import FontAwesome from "react-fontawesome";
 import styled from "styled-components";
+import PropTypes from "prop-types";
 
 const Button = styled.a.attrs({
   className: "btn border-dark"
@@ -21,39 +22,20 @@ const Message = styled.span`
   display: none;
 `;
 
-class GithubButton extends React.Component {
-  state = {
-    mouseHover: false
-  };
-
-  onMouseOver = () => {
-    this.setState({ mouseHover: true });
-  };
-
-  onMouseLeave = () => {
-    this.setState({ mouseHover: false });
-  };
-
-  renderMessage = () => {
-    // if (this.state.mouseHover) return <Message>See in Github</Message>;
-    // return null;
-    return <Message>See in Github</Message>;
-  };
-
-  render() {
-    const { url } = this.props;
-    return (
-      <Button
-        href={url}
-        onMouseOver={this.onMouseOver}
-        onMouseLeave={this.onMouseLeave}
-      >
-        <FontAwesome name="github" size="2x" />
-        <Message>See in Github</Message>
-        {/* {this.renderMessage()} */}
-      </Button>
-    );
-  }
+const GithubButton = ({url}) => {
+  return (
+    <Button href={url}>
+      <FontAwesome name="github" size="2x" />
+      <Message>See in Github</Message>
+    </Button>
+  ); 
 }
+
+GithubButton.propTypes = {
+  url: PropTypes.string
+};
+GithubButton.defaultProps = {
+  url: "nothing"
+};
 
 export default GithubButton;

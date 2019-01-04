@@ -32,7 +32,7 @@ class App extends Component {
         <GlobalStyle />
         <Nav />
         <Cover />
-        <Body className="container">
+        <Body>
           <Element name="about">
             <About />
           </Element>
