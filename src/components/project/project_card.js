@@ -2,11 +2,18 @@ import React from "react";
 import Card from "../card";
 import GithubButton from "./github-button";
 import PropTypes from "prop-types";
+import styled from "styled-components";
+
+const Description = styled.p`
+  text-indent: 7%;
+`;
 
 const Body = ({ data }) => {
   return (
     <div className="pl-2">
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{data.describe}</p>
+      <Description>
+        {data.describe}
+      </Description>
       <GithubButton url={data.url} />
     </div>
   );
