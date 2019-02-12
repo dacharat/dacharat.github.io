@@ -2,7 +2,7 @@ import React from "react";
 import Segment from "../segment";
 import ProjectCard from "./project_card";
 import Pulse from "react-reveal/Pulse";
-// ใส่ภาษาที & เทตโนโลยี ใช้เพิ่มลงไป
+
 // ip-subnet
 import ip_first from "../../assets/projects/ip-subnet/first.png";
 import ip_second from "../../assets/projects/ip-subnet/second.png";
@@ -26,17 +26,17 @@ import tt_first from "../../assets/projects/took-took/first.png";
 import tt_second from "../../assets/projects/took-took/second.png";
 
 // technology
+import java from "../../assets/skills/language/java.png";
 import javascript from "../../assets/skills/language/javascript.png";
+import html from "../../assets/skills/front-end/html.png";
+import css from "../../assets/skills/front-end/css.png";
 import react_icon from "../../assets/skills/front-end/react.png";
 import node from "../../assets/skills/back-end/node.png";
 import mongo from "../../assets/skills/database/mongodb.png";
-import gitlab from "../../assets/skills/other/gitlab.png";
-import asana from "../../assets/skills/other/asana.png";
-import firebase from "../../assets/skills/database/firebase.png";
-import java from "../../assets/skills/language/java.png";
 import sqlAdmin from "../../assets/skills/database/mysqlAdmin.png";
-import html from "../../assets/skills/front-end/html.png";
-import css from "../../assets/skills/front-end/css.png";
+import firebase from "../../assets/skills/database/firebase.png";
+import asana from "../../assets/skills/other/asana.png";
+import gitlab from "../../assets/skills/other/gitlab.png";
 import javafx from "../../assets/skills/other/javafx.png";
 
 const projects = [

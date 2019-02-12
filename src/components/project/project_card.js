@@ -12,26 +12,24 @@ const Img = styled.img`
   margin-left: 5px;
   margin-right: 5px;
 `;
-const Col = styled.div.attrs(props => ({
-  className: "col-md-" + props.num
-}))`
-  margin-top: 20px;
+const Flex = styled.div`
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 `;
 
 const Body = ({ data }) => {
   return (
     <div className="pl-2">
       <Description>{data.describe}</Description>
-      <div className="row">
-        <Col num="9">
+      <Flex>
+        <GithubButton url={data.url} />
+        <div className='mt-3'>
           {data.technology.map((img, i) => (
             <Img key={i} src={img} />
           ))}
-        </Col>
-        <Col num="3">
-          <GithubButton url={data.url} />
-        </Col>
-      </div>
+        </div>
+      </Flex>
     </div>
   );
 };
