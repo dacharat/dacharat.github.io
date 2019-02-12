@@ -26,6 +26,8 @@ import mongodb from "../../assets/skills/database/mongodb.png";
 import android from "../../assets/skills/other/android.png";
 import github from "../../assets/skills/other/github.png";
 import gitlab from "../../assets/skills/other/gitlab.png";
+import asana from "../../assets/skills/other/asana.png";
+import slack from "../../assets/skills/other/slack.png";
 
 const language = [
   { name: "C", image: c_pro },
@@ -53,7 +55,9 @@ const database = [
 const other = [
   { name: "Android Studio", image: android },
   { name: "Github", image: github },
-  { name: "Gitlab", image: gitlab }
+  { name: "Gitlab", image: gitlab },
+  { name: "Slack", image: slack },
+  { name: "Asana", image: asana }
 ];
 
 const skills = [

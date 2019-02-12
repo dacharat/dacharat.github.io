@@ -2,7 +2,7 @@ import React from "react";
 import Segment from "../segment";
 import ProjectCard from "./project_card";
 import Pulse from "react-reveal/Pulse";
-
+// ใส่ภาษาที & เทตโนโลยี ใช้เพิ่มลงไป
 // ip-subnet
 import ip_first from "../../assets/projects/ip-subnet/first.png";
 import ip_second from "../../assets/projects/ip-subnet/second.png";
