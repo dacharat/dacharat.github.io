@@ -25,6 +25,20 @@ import otop_sixth from "../../assets/projects/otopaholic/sixth.png";
 import tt_first from "../../assets/projects/took-took/first.png";
 import tt_second from "../../assets/projects/took-took/second.png";
 
+// technology
+import javascript from "../../assets/skills/language/javascript.png";
+import react_icon from "../../assets/skills/front-end/react.png";
+import node from "../../assets/skills/back-end/node.png";
+import mongo from "../../assets/skills/database/mongodb.png";
+import gitlab from "../../assets/skills/other/gitlab.png";
+import asana from "../../assets/skills/other/asana.png";
+import firebase from "../../assets/skills/database/firebase.png";
+import java from "../../assets/skills/language/java.png";
+import sqlAdmin from "../../assets/skills/database/mysqlAdmin.png";
+import html from "../../assets/skills/front-end/html.png";
+import css from "../../assets/skills/front-end/css.png";
+import javafx from "../../assets/skills/other/javafx.png";
+
 const projects = [
   {
     name: "Otopaholic",
@@ -38,25 +52,29 @@ const projects = [
       otop_fourth,
       otop_fifth,
       otop_sixth
-    ]
+    ],
+    technology: [javascript, react_icon, node, mongo, gitlab, asana]
   },
   {
     name: "IP subnet calculator",
     describe: "Group project to create IP subnet calaulator.",
     url: "https://github.com/dacharat/IP-subnet-calculator",
-    images: [ip_first, ip_second]
+    images: [ip_first, ip_second],
+    technology: [javascript, react_icon, firebase]
   },
   {
     name: "Math Master Game",
     describe: "Final project in OOP class, use Java to make application.",
     url: "https://github.com/dacharat/Math-Master-Game",
-    images: [math_first, math_second, math_third, math_fourth]
+    images: [math_first, math_second, math_third, math_fourth],
+    technology: [java, javafx, sqlAdmin]
   },
   {
     name: "Took-took-4.0",
     describe: "Group project to create IoT(Internet of Things) application. ",
     url: "https://github.com/took-took-4/took-took4",
-    images: [tt_first, tt_second]
+    images: [tt_first, tt_second],
+    technology: [javascript, html, css]
   }
 ];
 
