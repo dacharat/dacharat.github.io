@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "58e3d8766730d4a958d54fb6f072ffa7",
-    "url": "/static/media/glazziq.58e3d876.jpg"
+    "revision": "097b189d0b38518e83d19733ae71a5cf",
+    "url": "/static/media/slack.097b189d.png"
   },
   {
-    "revision": "22d76d6912a9733f7744",
-    "url": "/static/js/main.22d76d69.chunk.js"
+    "revision": "a2186e5e1ba37c2d97c1",
+    "url": "/static/js/main.a2186e5e.chunk.js"
   },
   {
     "revision": "912ec66d7572ff821749319396470bde",
@@ -80,8 +80,16 @@ self.__precacheManifest = [
     "url": "/static/media/gitlab.11d38b71.png"
   },
   {
-    "revision": "b06871f281fee6b241d60582ae9369b9",
-    "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
+    "revision": "834f9eab78e7377e87a0b8680b3dcfc4",
+    "url": "/static/media/asana.834f9eab.png"
+  },
+  {
+    "revision": "fee66e712a8a08eef5805a46892932ad",
+    "url": "/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "58e3d8766730d4a958d54fb6f072ffa7",
+    "url": "/static/media/glazziq.58e3d876.jpg"
   },
   {
     "revision": "aec36132dc82638e9c33121d64948817",
@@ -140,10 +148,6 @@ self.__precacheManifest = [
     "url": "/static/media/second.567509dd.png"
   },
   {
-    "revision": "fee66e712a8a08eef5805a46892932ad",
-    "url": "/static/media/fontawesome-webfont.fee66e71.woff"
-  },
-  {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
     "url": "/static/media/fontawesome-webfont.af7ae505.woff2"
   },
@@ -152,15 +156,19 @@ self.__precacheManifest = [
     "url": "/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "6a75644d63d2fb68c811",
-    "url": "/static/js/1.6a75644d.chunk.js"
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
-    "revision": "6a75644d63d2fb68c811",
-    "url": "/static/css/1.f0f38b86.chunk.css"
+    "revision": "9a75ce7b68949ae2d18d",
+    "url": "/static/js/1.9a75ce7b.chunk.js"
   },
   {
-    "revision": "83a9a68b7cc7e55147bd25e8685486d8",
+    "revision": "9a75ce7b68949ae2d18d",
+    "url": "/static/css/1.35803b11.chunk.css"
+  },
+  {
+    "revision": "ffa796f14d285c8347ffe9b021f25f4b",
     "url": "/index.html"
   }
 ];
