@@ -3,11 +3,12 @@ import FontAwesome from "react-fontawesome";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 
-const Button = styled.button`
+const Button = styled.a`
   @media (min-width: 769px) {
-    transition: max-width 0.3s;
+    transition: max-width 0.4s;
     max-width: 45px;
   }
+  color: black !important;
   margin-top: 1rem;
   display: flex;
   align-items: center;
@@ -15,6 +16,7 @@ const Button = styled.button`
   border: 1px solid black;
   padding: 2px 7px;
   :hover {
+    text-decoration: none;
     border-radius: 100px;
     overflow: hidden;
     white-space: nowrap;
