@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "58e3d8766730d4a958d54fb6f072ffa7",
-    "url": "/static/media/glazziq.58e3d876.jpg"
+    "revision": "bc4e48afc8edef970705",
+    "url": "/static/js/main.bc4e48af.chunk.js"
   },
   {
-    "revision": "7f4e48835a0b85874086",
-    "url": "/static/js/main.7f4e4883.chunk.js"
+    "revision": "13487cf52a2911568f01",
+    "url": "/static/css/1.62f888fe.chunk.css"
   },
   {
-    "revision": "912ec66d7572ff821749319396470bde",
-    "url": "/static/media/fontawesome-webfont.912ec66d.svg"
+    "revision": "13487cf52a2911568f01",
+    "url": "/static/js/1.13487cf5.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -32,12 +32,20 @@ self.__precacheManifest = [
     "url": "/static/media/node.6dcf6999.png"
   },
   {
+    "revision": "02711c2cf037c786ebb844af1328f809",
+    "url": "/static/media/django.02711c2c.png"
+  },
+  {
     "revision": "a0460b95a432081ebb4979800f2cc53e",
     "url": "/static/media/firebase.a0460b95.png"
   },
   {
     "revision": "e5eee315a17de0d7f56117077eb71fa9",
     "url": "/static/media/mongodb.e5eee315.png"
+  },
+  {
+    "revision": "ea5a6b4e047b0d965fbef3699466da8d",
+    "url": "/static/media/postgreSQL.ea5a6b4e.png"
   },
   {
     "revision": "11d38b71ab182e64a9440177f00030d4",
@@ -80,6 +88,14 @@ self.__precacheManifest = [
     "url": "/static/media/android.e8d3f488.png"
   },
   {
+    "revision": "4725ad9f0529247dc705536a2a8ef543",
+    "url": "/static/media/xcode.4725ad9f.jpg"
+  },
+  {
+    "revision": "47ce6e77f039020ee2e76a10c1e988e9",
+    "url": "/static/media/react-native.47ce6e77.png"
+  },
+  {
     "revision": "3e54ed15b9cd877c5223f5ecf64579df",
     "url": "/static/media/github.3e54ed15.png"
   },
@@ -88,8 +104,12 @@ self.__precacheManifest = [
     "url": "/static/media/slack.097b189d.png"
   },
   {
-    "revision": "b06871f281fee6b241d60582ae9369b9",
-    "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
+    "revision": "58e3d8766730d4a958d54fb6f072ffa7",
+    "url": "/static/media/glazziq.58e3d876.jpg"
+  },
+  {
+    "revision": "f69f343591c2e21a1023baf4f723958c",
+    "url": "/static/media/offenburg_university.f69f3435.jpg"
   },
   {
     "revision": "aec36132dc82638e9c33121d64948817",
@@ -152,8 +172,20 @@ self.__precacheManifest = [
     "url": "/static/media/javafx.3f27dbb7.png"
   },
   {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/static/media/fontawesome-webfont.674f50d2.eot"
+    "revision": "0ce0251b5226f038ebdfa884759f1b09",
+    "url": "/static/media/nvidia.0ce0251b.png"
+  },
+  {
+    "revision": "591dbc0fb4f609461beaae0951c0362b",
+    "url": "/static/media/opencv.591dbc0f.png"
+  },
+  {
+    "revision": "a1c911c4bba7c110d023cf5e8a236550",
+    "url": "/static/media/tensorflow.a1c911c4.png"
+  },
+  {
+    "revision": "4bda24982455aa53c4c6362239e1e3bc",
+    "url": "/static/media/keras.4bda2498.png"
   },
   {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
@@ -164,15 +196,19 @@ self.__precacheManifest = [
     "url": "/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "ee97b654fb7cd65b5ffc",
-    "url": "/static/js/1.ee97b654.chunk.js"
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "ee97b654fb7cd65b5ffc",
-    "url": "/static/css/1.3225444b.chunk.css"
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
-    "revision": "9a03903a67aaae2f76e00119a0a35c5e",
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/static/media/fontawesome-webfont.912ec66d.svg"
+  },
+  {
+    "revision": "83cd45722a18faff0ac5bc152ddf836e",
     "url": "/index.html"
   }
 ];
