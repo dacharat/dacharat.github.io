@@ -5,6 +5,7 @@ import { Flip } from "react-reveal";
 
 // experiences
 import glazziq from "../../assets/experiences/glazziq.jpg";
+import offenburg from "../../assets/experiences/offenburg_university.jpg";
 
 const myExperience = [
   {
@@ -16,13 +17,25 @@ const myExperience = [
       "Ruby on rails",
       "React",
       "Slim",
-      "ProgeSQL"
+      "PostgreSQL"
+    ]
+  },
+  {
+    name: "Internship at Offenburg University",
+    image: offenburg,
+    describe: [
+      "Deep Learning, Face Recognition",
+      "03/06/2019 - 02/08/2019",
+      "Python",
+      "OpenCV, Tensorflow, Keras",
+      "Django Framework",
+      "PostgreSQL"
     ]
   }
 ];
 
 const Body = () => {
-  return myExperience.map((experience, i) => (
+  return myExperience.reverse().map((experience, i) => (
     <Flip top key={i}>
       <ExperienceCard data={experience} />
     </Flip>

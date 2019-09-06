@@ -17,17 +17,23 @@ import react from "../../assets/skills/front-end/react.png";
 //back-end
 import node from "../../assets/skills/back-end/node.png";
 import rails from "../../assets/skills/back-end/rails.png";
+import django from "../../assets/skills/back-end/django.png";
 
 //database
 import firebase from "../../assets/skills/database/firebase.png";
 import mongodb from "../../assets/skills/database/mongodb.png";
+import postgreSQL from "../../assets/skills/database/postgreSQL.png";
 
-//other
-import android from "../../assets/skills/other/android.png";
-import github from "../../assets/skills/other/github.png";
-import gitlab from "../../assets/skills/other/gitlab.png";
-import asana from "../../assets/skills/other/asana.png";
-import slack from "../../assets/skills/other/slack.png";
+//mobile
+import android from "../../assets/skills/mobile/android.png";
+import xcode from "../../assets/skills/mobile/xcode.jpg";
+import reactnative from "../../assets/skills/mobile/react-native.png";
+
+//tools
+import github from "../../assets/skills/tools/github.png";
+import gitlab from "../../assets/skills/tools/gitlab.png";
+import asana from "../../assets/skills/tools/asana.png";
+import slack from "../../assets/skills/tools/slack.png";
 
 const language = [
   { name: "C", image: c_pro },
@@ -44,16 +50,23 @@ const front_end = [
 
 const back_end = [
   { name: "NodeJS & Express", image: node },
-  { name: "Ruby on Rails", image: rails }
+  { name: "Ruby on Rails", image: rails },
+  { name: "Django", image: django }
+];
+
+const mobile = [
+  { name: "Android Studio", image: android },
+  { name: "Xcode", image: xcode },
+  { name: "React Native", image: reactnative }
 ];
 
 const database = [
   { name: "Firebase", image: firebase },
-  { name: "MongoDB", image: mongodb }
+  { name: "MongoDB", image: mongodb },
+  { name: "PostgreSQL", image: postgreSQL }
 ];
 
-const other = [
-  { name: "Android Studio", image: android },
+const tools = [
   { name: "Github", image: github },
   { name: "Gitlab", image: gitlab },
   { name: "Slack", image: slack },
@@ -64,8 +77,9 @@ const skills = [
   { head: "Language", data: language },
   { head: "Front-end", data: front_end },
   { head: "Back-end", data: back_end },
+  { head: "Mobile", data: mobile },
   { head: "Database", data: database },
-  { head: "Other", data: other }
+  { head: "Tools", data: tools }
 ];
 
 const Body = () => {

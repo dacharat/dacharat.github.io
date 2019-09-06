@@ -28,18 +28,33 @@ import tt_second from "../../assets/projects/took-took/second.png";
 // technology
 import java from "../../assets/skills/language/java.png";
 import javascript from "../../assets/skills/language/javascript.png";
+import python from "../../assets/skills/language/python.png";
 import html from "../../assets/skills/front-end/html.png";
 import css from "../../assets/skills/front-end/css.png";
 import react_icon from "../../assets/skills/front-end/react.png";
 import node from "../../assets/skills/back-end/node.png";
+import django from "../../assets/skills/back-end/django.png";
 import mongo from "../../assets/skills/database/mongodb.png";
+import postgreSQL from "../../assets/skills/database/postgreSQL.png";
 import sqlAdmin from "../../assets/skills/database/mysqlAdmin.png";
 import firebase from "../../assets/skills/database/firebase.png";
-import asana from "../../assets/skills/other/asana.png";
-import gitlab from "../../assets/skills/other/gitlab.png";
-import javafx from "../../assets/skills/other/javafx.png";
+import asana from "../../assets/skills/tools/asana.png";
+import gitlab from "../../assets/skills/tools/gitlab.png";
+import javafx from "../../assets/skills/tools/javafx.png";
+import nvidia from "../../assets/skills/tools/nvidia.png";
+import openCV from "../../assets/skills/python-tools/opencv.png";
+import tensorflow from "../../assets/skills/python-tools/tensorflow.png";
+import keras from "../../assets/skills/python-tools/keras.png";
 
 const projects = [
+  {
+    name: "Face Eotion Result",
+    describe:
+      "Internship project that maintain the University project which can predict emotion to recognize the face and record to the database and develop a web application to show the result from the database as a graph.",
+    url: "https://github.com/dacharat/face_emotion_result",
+    images: [],
+    technology: [python, django, postgreSQL, openCV, tensorflow, keras, nvidia]
+  },
   {
     name: "Otopaholic",
     describe:
