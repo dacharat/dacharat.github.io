@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const Body = styled.div.attrs({
-  className: "container"
+  className: "container",
 })`
   max-width: 900px !important;
 `;
@@ -36,7 +36,7 @@ class App extends Component {
           <Element name="about">
             <About />
           </Element>
-          <Element name="experiences">
+          <Element name="experience">
             <Experience />
           </Element>
           <Element name="projects">

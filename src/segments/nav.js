@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Toggle from "../components/nav/toggle";
 
 const Nav = styled.nav.attrs({
-  className: "navbar navbar-light navbar-expand-md sticky-top"
+  className: "navbar navbar-light navbar-expand-md sticky-top",
 })`
   background-color: white;
   box-shadow: 0px 1px 5px grey;
@@ -13,13 +13,13 @@ const Nav = styled.nav.attrs({
 `;
 
 const NavItem = styled.span.attrs({
-  className: "nav-item"
+  className: "nav-item",
 })`
   font-size: 18px;
 `;
 
 const NavbarBrand = styled.a.attrs({
-  className: "navbar-brand font-weight-bold"
+  className: "navbar-brand font-weight-bold",
 })`
   margin: 5px 15px;
   cursor: pointer;
@@ -28,7 +28,7 @@ const NavbarBrand = styled.a.attrs({
 const ScrollLink = styled(Link).attrs({
   spy: true,
   smooth: true,
-  duration: 800
+  duration: 800,
 })`
   cursor: pointer;
   padding: 12px;
@@ -46,8 +46,8 @@ const NavBar = () => (
         <ScrollLink to="about" offset={-80}>
           <NavItem> About </NavItem>
         </ScrollLink>
-        <ScrollLink to="experiences" offset={-80}>
-          <NavItem> Experiences </NavItem>
+        <ScrollLink to="experience" offset={-80}>
+          <NavItem> Experience </NavItem>
         </ScrollLink>
         <ScrollLink to="projects" offset={-80}>
           <NavItem> Projects </NavItem>

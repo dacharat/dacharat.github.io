@@ -25,7 +25,7 @@ const Body = () => {
       <div className="col-md-6 m-auto text-center">
         <Paragraph>
           {" "}
-          Hi, I'm <b>Dacharat</b>. I'm currently a Software Developer student at
+          Hi, I'm <b>Dacharat</b>. I'm currently a Software Engineer student at
           Kasetsart University. Nowadays, technology is growing rapidly. I want
           to develop a modern Software for human.
         </Paragraph>

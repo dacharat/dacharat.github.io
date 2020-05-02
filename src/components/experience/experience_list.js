@@ -18,8 +18,8 @@ const myExperience = [
       "Ruby on rails",
       "React",
       "Slim",
-      "PostgreSQL"
-    ]
+      "PostgreSQL",
+    ],
   },
   {
     name: "Internship at Offenburg University",
@@ -30,8 +30,8 @@ const myExperience = [
       "Python",
       "OpenCV, Tensorflow, Keras",
       "Django Framework",
-      "PostgreSQL"
-    ]
+      "PostgreSQL",
+    ],
   },
   {
     name: "Internship at Wongnai Media Co.,Ltd.",
@@ -44,9 +44,9 @@ const myExperience = [
       "React",
       "Express",
       "Spring Framework",
-      "MySQL, phpMyAdmin"
-    ]
-  }
+      "MySQL, phpMyAdmin",
+    ],
+  },
 ];
 
 const Body = () => {
@@ -58,7 +58,7 @@ const Body = () => {
 };
 
 const ExperienceList = () => {
-  return <Segment icon="book" name="Experiences" component={<Body />} />;
+  return <Segment icon="book" name="Experience" component={<Body />} />;
 };
 
 export default ExperienceList;

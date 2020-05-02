@@ -14,7 +14,7 @@ const Menu = styled.div`
   right: 0;
   top: 0;
   height: 100%;
-  width: ${props => (props.isOpen ? "240px" : "0")};
+  width: ${(props) => (props.isOpen ? "240px" : "0")};
   background-color: white;
   box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.2);
   transition: all 300ms;
@@ -23,7 +23,7 @@ const Menu = styled.div`
 const ScrollLink = styled(Link).attrs({
   spy: true,
   smooth: true,
-  duration: 800
+  duration: 800,
 })`
   cursor: pointer;
   display: block;
@@ -33,7 +33,7 @@ const ScrollLink = styled(Link).attrs({
 
 class Toggle extends React.Component {
   state = {
-    isOpen: false
+    isOpen: false,
   };
 
   toggleHandler = () => {
@@ -42,7 +42,7 @@ class Toggle extends React.Component {
 
   render() {
     return (
-      <React.Fragment>
+      <>
         <ToggleButton onClick={this.toggleHandler}>
           <FontAwesome name={this.state.isOpen ? "close" : "bars"} size="lg" />
         </ToggleButton>
@@ -50,12 +50,8 @@ class Toggle extends React.Component {
           <ScrollLink onClick={this.toggleHandler} to="about" offset={-80}>
             About
           </ScrollLink>
-          <ScrollLink
-            onClick={this.toggleHandler}
-            to="experiences"
-            offset={-80}
-          >
-            Experiences
+          <ScrollLink onClick={this.toggleHandler} to="experience" offset={-80}>
+            Experience
           </ScrollLink>
           <ScrollLink onClick={this.toggleHandler} to="projects" offset={-80}>
             Projects
@@ -64,7 +60,7 @@ class Toggle extends React.Component {
             Contact
           </ScrollLink>
         </Menu>
-      </React.Fragment>
+      </>
     );
   }
 }
