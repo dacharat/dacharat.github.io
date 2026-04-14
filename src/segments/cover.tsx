@@ -23,11 +23,13 @@ const CoverDescription = styled.div`
 
 const Name = styled.h1`
   font-family: "Special Elite", cursive;
+  color: #333333;
 `;
 
 const Job = styled.h4`
   font-family: "Baloo 2", cursive;
   opacity: 0.75;
+  color: #333333;
 `;
 
 const Cover = () => {

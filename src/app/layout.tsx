@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import StyledComponentsRegistry from "./registry";
+import ThemeProviderWrapper from "./ThemeProviderWrapper";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 
@@ -16,7 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body suppressHydrationWarning>
-        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        <StyledComponentsRegistry>
+          <ThemeProviderWrapper>{children}</ThemeProviderWrapper>
+        </StyledComponentsRegistry>
       </body>
     </html>
   );

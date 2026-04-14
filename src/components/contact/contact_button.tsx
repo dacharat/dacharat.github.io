@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import { IconType } from "react-icons";
-
 const ContactMe = styled.a.attrs({ className: "btn m-2" })`
   text-align: center;
   font-size: 20px !important;
-  border-color: black !important;
+  border-color: ${({ theme }) => theme.border} !important;
+  color: ${({ theme }) => theme.text} !important;
   border-radius: 30px !important;
 `;
 

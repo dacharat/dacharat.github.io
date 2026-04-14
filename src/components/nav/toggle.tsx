@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import styled from "styled-components";
 import { Link } from "react-scroll";
-
 const ToggleButton = styled.span`
   cursor: pointer;
   z-index: 1;
@@ -17,8 +16,8 @@ const Menu = styled.div<{ $isOpen: boolean }>`
   top: 0;
   height: 100%;
   width: ${(props) => (props.$isOpen ? "240px" : "0")};
-  background-color: white;
-  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: ${({ theme }) => theme.bg};
+  box-shadow: -2px 2px 2px ${({ theme }) => theme.cardShadow};
   transition: all 300ms;
   overflow: hidden;
 `;

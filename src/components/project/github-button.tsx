@@ -1,18 +1,17 @@
 import React from "react";
 import styled from "styled-components";
 import { FaGithub } from "react-icons/fa";
-
 const Button = styled.a`
   @media (min-width: 769px) {
     transition: max-width 0.4s;
     max-width: 45px;
   }
-  color: black !important;
+  color: ${({ theme }) => theme.text} !important;
   margin-top: 1rem;
   display: flex;
   align-items: center;
   border-radius: 200px;
-  border: 1px solid black;
+  border: 1px solid ${({ theme }) => theme.border};
   padding: 2px 7px;
   :hover {
     text-decoration: none;

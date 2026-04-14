@@ -3,10 +3,9 @@ import Image from "next/image";
 import styled from "styled-components";
 import Segment from "../segment";
 import { FaUserCircle } from "react-icons/fa";
-
 const Paragraph = styled.p`
   border-radius: 10px;
-  background-color: #e7e7e7;
+  background-color: ${({ theme }) => theme.bgSecondary};
   padding: 12px;
   width: 90%;
   margin: auto;

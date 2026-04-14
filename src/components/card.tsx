@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-
 const Box = styled.div.attrs({ className: "p-3 m-2" })`
-  box-shadow: -1px -1px 10px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: -1px -1px 10px 2px ${({ theme }) => theme.cardShadow};
   text-align: left;
 `;
 
