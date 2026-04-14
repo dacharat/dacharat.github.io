@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /c/Users/dacha/projects/dacharat.github.io log --oneline -10)",
+      "Bash(git -C /c/Users/dacha/projects/dacharat.github.io branch -a)"
+    ]
+  }
+}
