@@ -3,7 +3,20 @@
     "allow": [
       "Bash(git -C /c/Users/dacha/projects/dacharat.github.io log --oneline -10)",
       "Bash(git -C /c/Users/dacha/projects/dacharat.github.io branch -a)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(npm install:*)",
+      "Bash(rm -v public/assets/cover/cover-mobile.jpg public/assets/cover/cover-pc.jpg public/assets/cover/cover-tablet.jpg)",
+      "Bash(rmdir public/assets/cover)",
+      "Bash(ls -la public/assets/profile*)",
+      "Bash(cp \"/c/Users/dacha/Downloads/profile.jpg\" public/assets/profile.jpg)",
+      "Bash(rm public/assets/profile.png)",
+      "Bash(cp \"/c/Users/dacha/Downloads/My Resume 2024.pdf\" public/assets/resume.pdf)",
+      "Bash(rm src/assets/resume.pdf)",
+      "Bash(rm -rf src/assets public/assets/skills public/assets/experiences)",
+      "Bash(find public/assets/projects -mindepth 1 -maxdepth 1 -type d ! -name otopaholic -exec rm -rf {} +)",
+      "Bash(ls -la .eslintrc* eslint.config.* .prettierrc* prettier.config.* .husky)",
+      "Bash(npx husky:*)",
+      "Bash(npx prettier:*)"
     ]
   }
 }

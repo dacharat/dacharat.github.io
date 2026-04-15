@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+# Format + lint only the staged files (fast).
+npx lint-staged || exit 1
+
+# Type-check the whole project so staged edits can't break cross-file types.
+# Slower than lint-staged but runs on every commit by design.
+echo "⏳ Type-checking with tsc --noEmit ..."
+npx tsc --noEmit || exit 1

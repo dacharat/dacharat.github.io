@@ -1,5 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Special+Elite&family=Happy+Monkey&display=swap");
+/* Reset + base only — typography handled by next/font in layout.tsx,
+   visual styling handled by styled-components GlobalStyle in theme.ts */
 
-* {
-  font-family: "Happy Monkey", cursive;
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
 }

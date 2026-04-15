@@ -1,108 +1,74 @@
-import React from "react";
-import Segment from "../segment";
-import ProjectCard from "./project_card";
-import ScrollAnimate from "../ScrollAnimate";
-import { FaListAlt } from "react-icons/fa";
+/**
+ * Project data — single source of truth.
+ * The first project is rendered as the "featured" card,
+ * the rest fall into the grid below.
+ */
 
-const projects = [
-  {
-    name: "Face Emotion Result",
-    describe:
-      "Internship project that maintain the University project which can predict emotion to recognize the face and record to the database and develop a web application to show the result from the database as a graph.",
-    url: "https://github.com/dacharat/face_emotion_result",
-    images: [],
-    technology: [
-      "/assets/skills/language/python.png",
-      "/assets/skills/back-end/django.png",
-      "/assets/skills/database/postgreSQL.png",
-      "/assets/skills/python-tools/opencv.png",
-      "/assets/skills/python-tools/tensorflow.png",
-      "/assets/skills/python-tools/keras.png",
-      "/assets/skills/tools/nvidia.png",
-    ],
-  },
+export interface ProjectItem {
+  name: string;
+  tagline: string;
+  description: string;
+  url: string;
+  /** Cover image path (optional — falls back to gradient placeholder) */
+  cover?: string;
+  /** Primary stack chips */
+  stack: string[];
+  /** When this project was built */
+  year: string;
+  /** Role / context, e.g. "Internship" or "Side project" */
+  context?: string;
+}
+
+export const projects: ProjectItem[] = [
   {
     name: "Otopaholic",
-    describe:
-      "Group project to create an e-commerce web application that sells OTOP products. This project working on full-stack web developer use ReactJS and Express.",
+    tagline: "Full-stack e-commerce for Thailand's local OTOP goods.",
+    description:
+      "A full-stack e-commerce platform for Thailand's OTOP (One Tambon One Product) program. I worked across the stack — React on the front, Node/Express and MongoDB on the back — and learned more about making real product decisions than I did about code.",
     url: "https://github.com/InsanelyGood/InsanelyGood-OTOP",
-    images: [
-      "/assets/projects/otopaholic/first.png",
-      "/assets/projects/otopaholic/second.png",
-      "/assets/projects/otopaholic/third.png",
-      "/assets/projects/otopaholic/fourth.png",
-      "/assets/projects/otopaholic/fifth.png",
-      "/assets/projects/otopaholic/sixth.png",
-    ],
-    technology: [
-      "/assets/skills/language/javascript.png",
-      "/assets/skills/front-end/react.png",
-      "/assets/skills/back-end/node.png",
-      "/assets/skills/database/mongodb.png",
-      "/assets/skills/tools/gitlab.png",
-      "/assets/skills/tools/asana.png",
-    ],
+    cover: "/assets/projects/otopaholic/first.png",
+    stack: ["React", "Node.js", "Express", "MongoDB"],
+    year: "2019",
+    context: "University · Group project",
   },
   {
-    name: "IP subnet calculator",
-    describe: "Group project to create IP subnet calculator.",
+    name: "Face Emotion Result",
+    tagline: "Real-time face emotion recognition with a Postgres dashboard.",
+    description:
+      "A computer vision pipeline that detects faces in real time, classifies emotional state, and streams results to a Postgres-backed dashboard. Built on top of an existing university research project — I extended the model serving layer and wrote the web app that visualises aggregate emotion data as time-series graphs.",
+    url: "https://github.com/dacharat/face_emotion_result",
+    stack: ["Python", "Django", "TensorFlow", "Keras", "OpenCV", "PostgreSQL"],
+    year: "2019",
+    context: "Internship · Offenburg University",
+  },
+  {
+    name: "IP Subnet Calculator",
+    tagline: "A web tool for calculating subnets, masks, and host ranges.",
+    description:
+      "A web tool for calculating IP subnets, network masks, and host ranges. Small in scope, but the first time I felt the satisfaction of shipping something other people actually used.",
     url: "https://github.com/dacharat/IP-subnet-calculator",
-    images: [
-      "/assets/projects/ip-subnet/first.png",
-      "/assets/projects/ip-subnet/second.png",
-    ],
-    technology: [
-      "/assets/skills/language/javascript.png",
-      "/assets/skills/front-end/react.png",
-      "/assets/skills/database/firebase.png",
-    ],
+    stack: ["React", "Firebase"],
+    year: "2018",
+    context: "University · Group project",
   },
   {
     name: "Math Master Game",
-    describe: "Final project in OOP class, use Java to make application.",
+    tagline: "A desktop math game built in Java + JavaFX.",
+    description:
+      "A desktop math game built in Java + JavaFX with MySQL for score tracking. My first real encounter with OOP beyond classroom exercises — inheritance, polymorphism, and a lot of refactoring.",
     url: "https://github.com/dacharat/Math-Master-Game",
-    images: [
-      "/assets/projects/math-game/first.png",
-      "/assets/projects/math-game/second.png",
-      "/assets/projects/math-game/third.png",
-      "/assets/projects/math-game/fourth.png",
-    ],
-    technology: [
-      "/assets/skills/language/java.png",
-      "/assets/skills/tools/javafx.png",
-      "/assets/skills/database/mysqlAdmin.png",
-    ],
+    stack: ["Java", "JavaFX", "MySQL"],
+    year: "2018",
+    context: "University · OOP final project",
   },
   {
-    name: "Took-took-4.0",
-    describe: "Group project to create IoT(Internet of Things) application.",
+    name: "Took-took 4.0",
+    tagline: "An IoT application for Bangkok's iconic tuk-tuks.",
+    description:
+      "A group project that pushed me to work with hardware sensors and real-time data for the first time.",
     url: "https://github.com/took-took-4/took-took4",
-    images: [
-      "/assets/projects/took-took/first.png",
-      "/assets/projects/took-took/second.png",
-    ],
-    technology: [
-      "/assets/skills/language/javascript.png",
-      "/assets/skills/front-end/html.png",
-      "/assets/skills/front-end/css.png",
-    ],
+    stack: ["JavaScript", "HTML", "CSS", "IoT"],
+    year: "2018",
+    context: "University · Group project",
   },
 ];
-
-const Body = () => {
-  return (
-    <>
-      {projects.map((project, i) => (
-        <ScrollAnimate key={i} variant="pulse">
-          <ProjectCard data={project} />
-        </ScrollAnimate>
-      ))}
-    </>
-  );
-};
-
-const ProjectList = () => {
-  return <Segment icon={FaListAlt} name="Projects" component={<Body />} />;
-};
-
-export default ProjectList;
