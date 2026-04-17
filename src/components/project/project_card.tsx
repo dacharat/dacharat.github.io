@@ -105,6 +105,26 @@ const FeaturedTagline = styled.h3`
   line-height: 1.2;
 `;
 
+const TaglineLink = styled.a`
+  color: inherit;
+  text-decoration: none;
+  background-image: linear-gradient(
+    ${({ theme }) => theme.accent},
+    ${({ theme }) => theme.accent}
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  background-position: 0 100%;
+  transition:
+    background-size 300ms ease,
+    color 200ms ease;
+
+  &:hover {
+    color: ${({ theme }) => theme.accent};
+    background-size: 100% 2px;
+  }
+`;
+
 const FeaturedDesc = styled.p`
   color: ${({ theme }) => theme.textMuted};
   font-size: 1rem;
@@ -197,7 +217,13 @@ export const FeaturedProjectCard = ({ data }: { data: ProjectItem }) => {
       </FeaturedImage>
       <FeaturedBody>
         <Mono>Featured · {data.year}</Mono>
-        <FeaturedTagline>{data.tagline}</FeaturedTagline>
+        <FeaturedTagline>
+          {data.liveUrl ? (
+            <TaglineLink href={data.liveUrl}>{data.tagline}</TaglineLink>
+          ) : (
+            data.tagline
+          )}
+        </FeaturedTagline>
         <FeaturedDesc>{data.description}</FeaturedDesc>
         <StackRow>
           {data.stack.map((s) => (

@@ -9,6 +9,8 @@ export interface ProjectItem {
   tagline: string;
   description: string;
   url: string;
+  /** Live demo URL (optional) — when present, the tagline links here */
+  liveUrl?: string;
   /** Cover image path (optional — falls back to gradient placeholder) */
   cover?: string;
   /** Primary stack chips */
@@ -21,12 +23,23 @@ export interface ProjectItem {
 
 export const projects: ProjectItem[] = [
   {
+    name: "Weekly Workout Planner",
+    tagline: "Plan your week, track muscle volume, stay consistent.",
+    description:
+      "A side project born out of my own gym habit — a tool to plan weekly training splits and actually see where the volume lands. Exercises are added per day, sets and reps feed a live muscle-volume chart with front/back body visualisation that highlights under- and over-worked groups against a 10–20 sets/muscle/week target. Supports sharing, CSV export, and dark mode.",
+    url: "https://github.com/dacharat/workout-planner",
+    liveUrl: "https://dacharat.github.io/workout-planner/",
+    cover: "/assets/projects/workout-planner/cover.png",
+    stack: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    year: "2026",
+    context: "Side project",
+  },
+  {
     name: "Otopaholic",
     tagline: "Full-stack e-commerce for Thailand's local OTOP goods.",
     description:
       "A full-stack e-commerce platform for Thailand's OTOP (One Tambon One Product) program. I worked across the stack — React on the front, Node/Express and MongoDB on the back — and learned more about making real product decisions than I did about code.",
     url: "https://github.com/InsanelyGood/InsanelyGood-OTOP",
-    cover: "/assets/projects/otopaholic/first.png",
     stack: ["React", "Node.js", "Express", "MongoDB"],
     year: "2019",
     context: "University · Group project",
