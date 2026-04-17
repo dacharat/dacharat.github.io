@@ -1,4 +1,4 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[974],{1754:(e,t,r)=>{"use strict";r.d(t,{D:()=>l,w:()=>s});var n=r(5155),o=r(2115),a=r(7232);let i=(0,o.createContext)({isDark:!1,toggleTheme:()=>{},theme:a._k});function s(e){let{children:t}=e,[r,s]=(0,o.useState)(!1);return(0,o.useEffect)(()=>{let e=localStorage.getItem("theme");e?s("dark"===e):s(window.matchMedia("(prefers-color-scheme: dark)").matches)},[]),(0,n.jsx)(i.Provider,{value:{isDark:r,toggleTheme:()=>{s(e=>{let t=!e;return localStorage.setItem("theme",t?"dark":"light"),t})},theme:r?a.a5:a._k},children:t})}function l(){return(0,o.useContext)(i)}},2817:(e,t,r)=>{Promise.resolve().then(r.bind(r,3225))},3225:(e,t,r)=>{"use strict";r.r(t),r.d(t,{default:()=>e9});var n=r(5155),o=r(2115),a=r(2553),i=r(9995),s=r(4384),l=r(9447);let c=a.Ay.div`
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[974],{1754:(e,t,r)=>{"use strict";r.d(t,{D:()=>l,w:()=>s});var n=r(5155),o=r(2115),a=r(7232);let i=(0,o.createContext)({isDark:!1,toggleTheme:()=>{},theme:a._k});function s(e){let{children:t}=e,[r,s]=(0,o.useState)(!1);return(0,o.useEffect)(()=>{let e=localStorage.getItem("theme");e?s("dark"===e):s(window.matchMedia("(prefers-color-scheme: dark)").matches)},[]),(0,n.jsx)(i.Provider,{value:{isDark:r,toggleTheme:()=>{s(e=>{let t=!e;return localStorage.setItem("theme",t?"dark":"light"),t})},theme:r?a.a5:a._k},children:t})}function l(){return(0,o.useContext)(i)}},2817:(e,t,r)=>{Promise.resolve().then(r.bind(r,3225))},3225:(e,t,r)=>{"use strict";r.r(t),r.d(t,{default:()=>te});var n=r(5155),o=r(2115),a=r(2553),i=r(9995),s=r(4384),l=r(9447);let c=a.Ay.div`
   width: min(1200px, 92vw);
   margin: 0 auto;
 `,d=a.Ay.section`
@@ -108,11 +108,11 @@
   margin-top: 8px;
   padding-top: 24px;
   border-top: 1px solid ${e=>{let{theme:t}=e;return t.border}};
-`,M=a.Ay.div`
+`,S=a.Ay.div`
   display: flex;
   flex-direction: column;
   gap: 4px;
-`,S=(0,a.Ay)(p)`
+`,M=(0,a.Ay)(p)`
   font-size: 0.7rem;
 `,I=a.Ay.span`
   font-size: 0.95rem;
@@ -157,7 +157,7 @@
   @media (max-width: 640px) {
     display: none;
   }
-`,G=()=>{let{scrollYProgress:e}=(0,s.L)(),t=(0,l.G)(e,[0,.2],[0,100]),r=(0,l.G)(e,[0,.2],[1,0]);return(0,n.jsxs)(v,{id:"cover",children:[(0,n.jsx)(j,{style:{y:t,opacity:r}}),(0,n.jsx)(c,{children:(0,n.jsxs)(k,{children:[(0,n.jsx)(i.P.div,{initial:{opacity:0,y:20},animate:{opacity:1,y:0},transition:{duration:.6,ease:[.22,1,.36,1]},children:(0,n.jsxs)(w,{children:[(0,n.jsx)($,{animate:{opacity:[1,.4,1]},transition:{duration:2,repeat:1/0}}),(0,n.jsx)(p,{children:"Portfolio \xb7 2026"})]})}),(0,n.jsx)(i.P.div,{initial:{opacity:0,y:32},animate:{opacity:1,y:0},transition:{duration:.7,delay:.1,ease:[.22,1,.36,1]},children:(0,n.jsxs)(A,{children:["Dacharat",(0,n.jsx)("br",{}),(0,n.jsx)("span",{className:"accent",children:"Pankong."})]})}),(0,n.jsx)(i.P.div,{initial:{opacity:0,y:24},animate:{opacity:1,y:0},transition:{duration:.7,delay:.25,ease:[.22,1,.36,1]},children:(0,n.jsxs)(P,{children:[(0,n.jsx)("strong",{children:"Senior backend engineer at LINE MAN Wongnai."})," I build food delivery systems at scale — pricing, ordering, and the paths millions of orders run through every day."]})}),(0,n.jsx)(i.P.div,{initial:{opacity:0,y:16},animate:{opacity:1,y:0},transition:{duration:.7,delay:.4,ease:[.22,1,.36,1]},children:(0,n.jsxs)(z,{children:[(0,n.jsxs)(M,{children:[(0,n.jsx)(S,{children:"Role"}),(0,n.jsx)(I,{children:"Senior Backend Engineer"})]}),(0,n.jsxs)(M,{children:[(0,n.jsx)(S,{children:"Company"}),(0,n.jsx)(I,{children:"LINE MAN Wongnai"})]}),(0,n.jsxs)(M,{children:[(0,n.jsx)(S,{children:"Based in"}),(0,n.jsx)(I,{children:"Bangkok, Thailand"})]}),(0,n.jsxs)(M,{children:[(0,n.jsx)(S,{children:"Stack"}),(0,n.jsx)(I,{children:"Go \xb7 MongoDB \xb7 Kafka \xb7 Redis \xb7 gRPC"})]})]})})]})}),(0,n.jsxs)(C,{to:"about",smooth:!0,duration:800,offset:-80,children:["Scroll",(0,n.jsx)(y.$TP,{size:12})]})]})};var L=r(3615),N=r(7650);let D=a.Ay.button`
+`,G=()=>{let{scrollYProgress:e}=(0,s.L)(),t=(0,l.G)(e,[0,.2],[0,100]),r=(0,l.G)(e,[0,.2],[1,0]);return(0,n.jsxs)(v,{id:"cover",children:[(0,n.jsx)(j,{style:{y:t,opacity:r}}),(0,n.jsx)(c,{children:(0,n.jsxs)(k,{children:[(0,n.jsx)(i.P.div,{initial:{opacity:0,y:20},animate:{opacity:1,y:0},transition:{duration:.6,ease:[.22,1,.36,1]},children:(0,n.jsxs)(w,{children:[(0,n.jsx)($,{animate:{opacity:[1,.4,1]},transition:{duration:2,repeat:1/0}}),(0,n.jsx)(p,{children:"Portfolio \xb7 2026"})]})}),(0,n.jsx)(i.P.div,{initial:{opacity:0,y:32},animate:{opacity:1,y:0},transition:{duration:.7,delay:.1,ease:[.22,1,.36,1]},children:(0,n.jsxs)(A,{children:["Dacharat",(0,n.jsx)("br",{}),(0,n.jsx)("span",{className:"accent",children:"Pankong."})]})}),(0,n.jsx)(i.P.div,{initial:{opacity:0,y:24},animate:{opacity:1,y:0},transition:{duration:.7,delay:.25,ease:[.22,1,.36,1]},children:(0,n.jsxs)(P,{children:[(0,n.jsx)("strong",{children:"Senior backend engineer at LINE MAN Wongnai."})," I build food delivery systems at scale — pricing, ordering, and the paths millions of orders run through every day."]})}),(0,n.jsx)(i.P.div,{initial:{opacity:0,y:16},animate:{opacity:1,y:0},transition:{duration:.7,delay:.4,ease:[.22,1,.36,1]},children:(0,n.jsxs)(z,{children:[(0,n.jsxs)(S,{children:[(0,n.jsx)(M,{children:"Role"}),(0,n.jsx)(I,{children:"Senior Backend Engineer"})]}),(0,n.jsxs)(S,{children:[(0,n.jsx)(M,{children:"Company"}),(0,n.jsx)(I,{children:"LINE MAN Wongnai"})]}),(0,n.jsxs)(S,{children:[(0,n.jsx)(M,{children:"Based in"}),(0,n.jsx)(I,{children:"Bangkok, Thailand"})]}),(0,n.jsxs)(S,{children:[(0,n.jsx)(M,{children:"Stack"}),(0,n.jsx)(I,{children:"Go \xb7 MongoDB \xb7 Kafka \xb7 Redis \xb7 gRPC"})]})]})})]})}),(0,n.jsxs)(C,{to:"about",smooth:!0,duration:800,offset:-80,children:["Scroll",(0,n.jsx)(y.$TP,{size:12})]})]})};var N=r(3615),L=r(7650);let T=a.Ay.button`
   background: none;
   border: 1px solid ${e=>{let{theme:t}=e;return t.border}};
   border-radius: 8px;
@@ -180,7 +180,7 @@
   pointer-events: ${e=>e.$isOpen?"auto":"none"};
   transition: opacity 250ms ease;
   z-index: 100;
-`,T=a.Ay.aside`
+`,D=a.Ay.aside`
   position: fixed;
   top: 0;
   right: 0;
@@ -214,7 +214,7 @@
     color: ${e=>{let{theme:t}=e;return t.accent}};
     padding-left: 16px;
   }
-`,R=()=>{let[e,t]=(0,o.useState)(!1),[r,a]=(0,o.useState)(!1);(0,o.useEffect)(()=>{a(!0)},[]),(0,o.useEffect)(()=>{if(!r)return;let t=document.body.style.overflow;return document.body.style.overflow=e?"hidden":t||"",()=>{document.body.style.overflow=t||""}},[e,r]);let i=()=>t(!1),s=(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(E,{$isOpen:e,onClick:i}),(0,n.jsxs)(T,{$isOpen:e,"aria-hidden":!e,children:[(0,n.jsx)(O,{onClick:i,to:"about",smooth:!0,duration:600,offset:-80,children:"01 \xb7 About"}),(0,n.jsx)(O,{onClick:i,to:"experience",smooth:!0,duration:600,offset:-80,children:"02 \xb7 Work"}),(0,n.jsx)(O,{onClick:i,to:"projects",smooth:!0,duration:600,offset:-80,children:"03 \xb7 Projects"}),(0,n.jsx)(O,{onClick:i,to:"contact",smooth:!0,duration:600,offset:-80,children:"04 \xb7 Contact"})]})]});return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(D,{onClick:()=>t(e=>!e),"aria-label":"Toggle menu","aria-expanded":e,children:e?(0,n.jsx)(y.QCr,{size:16}):(0,n.jsx)(y.OXb,{size:16})}),r&&(0,N.createPortal)(s,document.body)]})};var B=r(1754),_=r(6092);let F=a.Ay.nav`
+`,R=()=>{let[e,t]=(0,o.useState)(!1),[r,a]=(0,o.useState)(!1);(0,o.useEffect)(()=>{a(!0)},[]),(0,o.useEffect)(()=>{if(!r)return;let t=document.body.style.overflow;return document.body.style.overflow=e?"hidden":t||"",()=>{document.body.style.overflow=t||""}},[e,r]);let i=()=>t(!1),s=(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(E,{$isOpen:e,onClick:i}),(0,n.jsxs)(D,{$isOpen:e,"aria-hidden":!e,children:[(0,n.jsx)(O,{onClick:i,to:"about",smooth:!0,duration:600,offset:-80,children:"01 \xb7 About"}),(0,n.jsx)(O,{onClick:i,to:"experience",smooth:!0,duration:600,offset:-80,children:"02 \xb7 Work"}),(0,n.jsx)(O,{onClick:i,to:"projects",smooth:!0,duration:600,offset:-80,children:"03 \xb7 Projects"}),(0,n.jsx)(O,{onClick:i,to:"contact",smooth:!0,duration:600,offset:-80,children:"04 \xb7 Contact"})]})]});return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(T,{onClick:()=>t(e=>!e),"aria-label":"Toggle menu","aria-expanded":e,children:e?(0,n.jsx)(y.QCr,{size:16}):(0,n.jsx)(y.OXb,{size:16})}),r&&(0,L.createPortal)(s,document.body)]})};var B=r(1754),_=r(6092);let F=a.Ay.nav`
   position: sticky;
   top: 0;
   z-index: 50;
@@ -253,7 +253,7 @@
     background: ${e=>{let{theme:t}=e;return t.accent}};
     box-shadow: 0 0 12px ${e=>{let{theme:t}=e;return t.accent}};
   }
-`,J=a.Ay.div`
+`,U=a.Ay.div`
   display: none;
   align-items: center;
   gap: 6px;
@@ -261,7 +261,7 @@
   @media (min-width: 768px) {
     display: flex;
   }
-`,Q=(0,a.Ay)(b.N_)`
+`,J=(0,a.Ay)(b.N_)`
   font-family: var(--font-mono-stack);
   font-size: 0.78rem;
   letter-spacing: 0.08em;
@@ -282,7 +282,7 @@
   &.active {
     color: ${e=>{let{theme:t}=e;return t.text}};
   }
-`,U=a.Ay.button`
+`,Q=a.Ay.button`
   background: none;
   border: 1px solid ${e=>{let{theme:t}=e;return t.border}};
   border-radius: 8px;
@@ -323,7 +323,7 @@
     ${e=>{let{theme:t}=e;return t.accentAlt}}
   );
   transform-origin: 0%;
-`,Y=()=>{let{isDark:e,toggleTheme:t}=(0,B.D)(),{scrollYProgress:r}=(0,s.L)(),o=(0,L.z)(r,{stiffness:120,damping:30,mass:.2});return(0,n.jsxs)(F,{children:[(0,n.jsxs)(H,{children:[(0,n.jsx)(W,{to:"cover",smooth:!0,duration:600,spy:!0,children:"DACHARAT.DEV"}),(0,n.jsxs)(J,{children:[(0,n.jsx)(Q,{to:"about",smooth:!0,duration:600,offset:-80,spy:!0,activeClass:"active",children:"About"}),(0,n.jsx)(Q,{to:"experience",smooth:!0,duration:600,offset:-80,spy:!0,activeClass:"active",children:"Work"}),(0,n.jsx)(Q,{to:"projects",smooth:!0,duration:600,offset:-80,spy:!0,activeClass:"active",children:"Projects"}),(0,n.jsx)(Q,{to:"contact",smooth:!0,duration:600,offset:-80,spy:!0,activeClass:"active",children:"Contact"})]}),(0,n.jsxs)(K,{children:[(0,n.jsx)(U,{onClick:t,"aria-label":"Toggle dark mode",children:e?(0,n.jsx)(_.uSI,{}):(0,n.jsx)(_.h50,{})}),(0,n.jsx)("span",{className:"mobile-menu",children:(0,n.jsx)(R,{})})]})]}),(0,n.jsx)(X,{style:{scaleX:o}})]})};var q=r(5239);let V=a.Ay.div`
+`,Y=()=>{let{isDark:e,toggleTheme:t}=(0,B.D)(),{scrollYProgress:r}=(0,s.L)(),o=(0,N.z)(r,{stiffness:120,damping:30,mass:.2});return(0,n.jsxs)(F,{children:[(0,n.jsxs)(H,{children:[(0,n.jsx)(W,{to:"cover",smooth:!0,duration:600,spy:!0,children:"DACHARAT.DEV"}),(0,n.jsxs)(U,{children:[(0,n.jsx)(J,{to:"about",smooth:!0,duration:600,offset:-80,spy:!0,activeClass:"active",children:"About"}),(0,n.jsx)(J,{to:"experience",smooth:!0,duration:600,offset:-80,spy:!0,activeClass:"active",children:"Work"}),(0,n.jsx)(J,{to:"projects",smooth:!0,duration:600,offset:-80,spy:!0,activeClass:"active",children:"Projects"}),(0,n.jsx)(J,{to:"contact",smooth:!0,duration:600,offset:-80,spy:!0,activeClass:"active",children:"Contact"})]}),(0,n.jsxs)(K,{children:[(0,n.jsx)(Q,{onClick:t,"aria-label":"Toggle dark mode",children:e?(0,n.jsx)(_.uSI,{}):(0,n.jsx)(_.h50,{})}),(0,n.jsx)("span",{className:"mobile-menu",children:(0,n.jsx)(R,{})})]})]}),(0,n.jsx)(X,{style:{scaleX:o}})]})};var q=r(5239);let V=a.Ay.div`
   display: grid;
   grid-template-columns: 1fr;
   gap: clamp(40px, 6vw, 80px);
@@ -541,9 +541,9 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
-`,eM=(0,a.Ay)(p)`
+`,eS=(0,a.Ay)(p)`
   font-size: 0.7rem;
-`,eS=a.Ay.span`
+`,eM=a.Ay.span`
   font-weight: 500;
   color: ${e=>{let{theme:t}=e;return t.text}};
 `,eI=a.Ay.span`
@@ -554,11 +554,11 @@
   font-family: var(--font-mono-stack);
   font-size: 0.72rem;
   color: ${e=>{let{theme:t}=e;return t.textSubtle}};
-`,eG=()=>(0,n.jsx)(ew,{children:(0,n.jsxs)(c,{children:[(0,n.jsxs)(i.P.div,{...g,children:[(0,n.jsx)(x,{children:"02 \xb7 Work"}),(0,n.jsx)(h,{children:"Where I've been shipping things."}),(0,n.jsx)(u,{children:"From a Growth-squad intern to a Senior Backend Engineer on Thailand's largest food delivery platform."})]}),(0,n.jsx)(e$,{children:ej.map((e,t)=>(0,n.jsx)(ev,{data:e},t))}),(0,n.jsxs)(eA,{children:[(0,n.jsx)(i.P.div,{...g,children:(0,n.jsx)(p,{children:"Earlier \xb7 Internships"})}),(0,n.jsx)(eP,{children:ek.map((e,t)=>(0,n.jsxs)(ez,{...f(.05*t),children:[(0,n.jsx)(eM,{children:e.year}),(0,n.jsx)(eS,{children:e.role}),(0,n.jsx)(eI,{children:e.company}),(0,n.jsx)(eC,{children:e.stack})]},t))})]})]})}),eL=a.Ay.div`
+`,eG=()=>(0,n.jsx)(ew,{children:(0,n.jsxs)(c,{children:[(0,n.jsxs)(i.P.div,{...g,children:[(0,n.jsx)(x,{children:"02 \xb7 Work"}),(0,n.jsx)(h,{children:"Where I've been shipping things."}),(0,n.jsx)(u,{children:"From a Growth-squad intern to a Senior Backend Engineer on Thailand's largest food delivery platform."})]}),(0,n.jsx)(e$,{children:ej.map((e,t)=>(0,n.jsx)(ev,{data:e},t))}),(0,n.jsxs)(eA,{children:[(0,n.jsx)(i.P.div,{...g,children:(0,n.jsx)(p,{children:"Earlier \xb7 Internships"})}),(0,n.jsx)(eP,{children:ek.map((e,t)=>(0,n.jsxs)(ez,{...f(.05*t),children:[(0,n.jsx)(eS,{children:e.year}),(0,n.jsx)(eM,{children:e.role}),(0,n.jsx)(eI,{children:e.company}),(0,n.jsx)(eC,{children:e.stack})]},t))})]})]})}),eN=a.Ay.div`
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-`,eN=a.Ay.span`
+`,eL=a.Ay.span`
   font-family: var(--font-mono-stack);
   font-size: 0.7rem;
   letter-spacing: 0.04em;
@@ -567,7 +567,7 @@
   border: 1px solid ${e=>{let{theme:t}=e;return t.border}};
   color: ${e=>{let{theme:t}=e;return t.textMuted}};
   background-color: ${e=>{let{theme:t}=e;return t.surface}};
-`,eD=a.Ay.a`
+`,eT=a.Ay.a`
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -613,7 +613,7 @@
     gap: 56px;
     align-items: center;
   }
-`,eT=a.Ay.div`
+`,eD=a.Ay.div`
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 10;
@@ -633,15 +633,33 @@
   font-size: clamp(1.5rem, 2.6vw, 2rem);
   letter-spacing: -0.02em;
   line-height: 1.2;
-`,eB=a.Ay.p`
+`,eB=a.Ay.a`
+  color: inherit;
+  text-decoration: none;
+  background-image: linear-gradient(
+    ${e=>{let{theme:t}=e;return t.accent}},
+    ${e=>{let{theme:t}=e;return t.accent}}
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  background-position: 0 100%;
+  transition:
+    background-size 300ms ease,
+    color 200ms ease;
+
+  &:hover {
+    color: ${e=>{let{theme:t}=e;return t.accent}};
+    background-size: 100% 2px;
+  }
+`,e_=a.Ay.p`
   color: ${e=>{let{theme:t}=e;return t.textMuted}};
   font-size: 1rem;
   line-height: 1.7;
-`,e_=a.Ay.div`
+`,eF=a.Ay.div`
   display: flex;
   gap: 16px;
   color: ${e=>{let{theme:t}=e;return t.textSubtle}};
-`,eF=(0,a.Ay)(i.P.article)`
+`,eH=(0,a.Ay)(i.P.article)`
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -659,12 +677,12 @@
     border-color: ${e=>{let{theme:t}=e;return t.borderStrong}};
     box-shadow: ${e=>{let{theme:t}=e;return t.shadow}};
   }
-`,eH=a.Ay.div`
+`,eW=a.Ay.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 12px;
-`,eW=a.Ay.h4`
+`,eU=a.Ay.h4`
   font-size: 1.2rem;
   letter-spacing: -0.015em;
 `,eJ=a.Ay.a`
@@ -691,9 +709,9 @@
   font-size: 0.92rem;
   line-height: 1.6;
   flex: 1;
-`,eU=e=>{let{data:t}=e;return(0,n.jsxs)(eE,{...g,children:[(0,n.jsx)(eT,{children:t.cover&&(0,n.jsx)(q.default,{src:t.cover,alt:`${t.name} cover`,fill:!0,sizes:"(max-width: 900px) 92vw, 50vw",style:{objectFit:"cover"}})}),(0,n.jsxs)(eO,{children:[(0,n.jsxs)(p,{children:["Featured \xb7 ",t.year]}),(0,n.jsx)(eR,{children:t.tagline}),(0,n.jsx)(eB,{children:t.description}),(0,n.jsx)(eL,{children:t.stack.map(e=>(0,n.jsx)(eN,{children:e},e))}),(0,n.jsx)(e_,{children:t.context&&(0,n.jsx)(p,{children:t.context})}),(0,n.jsxs)(eD,{href:t.url,target:"_blank",rel:"noopener noreferrer",children:["View on GitHub ",(0,n.jsx)(y.Z0P,{size:12})]})]})]})},eK=e=>{let{data:t}=e;return(0,n.jsxs)(eF,{...g,children:[(0,n.jsxs)(eH,{children:[(0,n.jsxs)("div",{children:[(0,n.jsx)(p,{children:t.year}),(0,n.jsx)(eW,{children:t.name})]}),(0,n.jsx)(eJ,{href:t.url,target:"_blank",rel:"noopener noreferrer","aria-label":`${t.name} on GitHub`,children:(0,n.jsx)(y.hL4,{size:14})})]}),(0,n.jsx)(eQ,{children:t.description}),(0,n.jsx)(eL,{children:t.stack.map(e=>(0,n.jsx)(eN,{children:e},e))})]})},eX=[{name:"Otopaholic",tagline:"Full-stack e-commerce for Thailand's local OTOP goods.",description:"A full-stack e-commerce platform for Thailand's OTOP (One Tambon One Product) program. I worked across the stack — React on the front, Node/Express and MongoDB on the back — and learned more about making real product decisions than I did about code.",url:"https://github.com/InsanelyGood/InsanelyGood-OTOP",cover:"/assets/projects/otopaholic/first.png",stack:["React","Node.js","Express","MongoDB"],year:"2019",context:"University \xb7 Group project"},{name:"Face Emotion Result",tagline:"Real-time face emotion recognition with a Postgres dashboard.",description:"A computer vision pipeline that detects faces in real time, classifies emotional state, and streams results to a Postgres-backed dashboard. Built on top of an existing university research project — I extended the model serving layer and wrote the web app that visualises aggregate emotion data as time-series graphs.",url:"https://github.com/dacharat/face_emotion_result",stack:["Python","Django","TensorFlow","Keras","OpenCV","PostgreSQL"],year:"2019",context:"Internship \xb7 Offenburg University"},{name:"IP Subnet Calculator",tagline:"A web tool for calculating subnets, masks, and host ranges.",description:"A web tool for calculating IP subnets, network masks, and host ranges. Small in scope, but the first time I felt the satisfaction of shipping something other people actually used.",url:"https://github.com/dacharat/IP-subnet-calculator",stack:["React","Firebase"],year:"2018",context:"University \xb7 Group project"},{name:"Math Master Game",tagline:"A desktop math game built in Java + JavaFX.",description:"A desktop math game built in Java + JavaFX with MySQL for score tracking. My first real encounter with OOP beyond classroom exercises — inheritance, polymorphism, and a lot of refactoring.",url:"https://github.com/dacharat/Math-Master-Game",stack:["Java","JavaFX","MySQL"],year:"2018",context:"University \xb7 OOP final project"},{name:"Took-took 4.0",tagline:"An IoT application for Bangkok's iconic tuk-tuks.",description:"A group project that pushed me to work with hardware sensors and real-time data for the first time.",url:"https://github.com/took-took-4/took-took4",stack:["JavaScript","HTML","CSS","IoT"],year:"2018",context:"University \xb7 Group project"}],eY=a.Ay.div`
+`,eK=e=>{let{data:t}=e;return(0,n.jsxs)(eE,{...g,children:[(0,n.jsx)(eD,{children:t.cover&&(0,n.jsx)(q.default,{src:t.cover,alt:`${t.name} cover`,fill:!0,sizes:"(max-width: 900px) 92vw, 50vw",style:{objectFit:"cover"}})}),(0,n.jsxs)(eO,{children:[(0,n.jsxs)(p,{children:["Featured \xb7 ",t.year]}),(0,n.jsx)(eR,{children:t.liveUrl?(0,n.jsx)(eB,{href:t.liveUrl,children:t.tagline}):t.tagline}),(0,n.jsx)(e_,{children:t.description}),(0,n.jsx)(eN,{children:t.stack.map(e=>(0,n.jsx)(eL,{children:e},e))}),(0,n.jsx)(eF,{children:t.context&&(0,n.jsx)(p,{children:t.context})}),(0,n.jsxs)(eT,{href:t.url,target:"_blank",rel:"noopener noreferrer",children:["View on GitHub ",(0,n.jsx)(y.Z0P,{size:12})]})]})]})},eX=e=>{let{data:t}=e;return(0,n.jsxs)(eH,{...g,children:[(0,n.jsxs)(eW,{children:[(0,n.jsxs)("div",{children:[(0,n.jsx)(p,{children:t.year}),(0,n.jsx)(eU,{children:t.name})]}),(0,n.jsx)(eJ,{href:t.url,target:"_blank",rel:"noopener noreferrer","aria-label":`${t.name} on GitHub`,children:(0,n.jsx)(y.hL4,{size:14})})]}),(0,n.jsx)(eQ,{children:t.description}),(0,n.jsx)(eN,{children:t.stack.map(e=>(0,n.jsx)(eL,{children:e},e))})]})},eY=[{name:"Weekly Workout Planner",tagline:"Plan your week, track muscle volume, stay consistent.",description:"A side project born out of my own gym habit — a tool to plan weekly training splits and actually see where the volume lands. Exercises are added per day, sets and reps feed a live muscle-volume chart with front/back body visualisation that highlights under- and over-worked groups against a 10–20 sets/muscle/week target. Supports sharing, CSV export, and dark mode.",url:"https://github.com/dacharat/workout-planner",liveUrl:"https://dacharat.github.io/workout-planner/",cover:"/assets/projects/workout-planner/cover.png",stack:["Next.js","React","TypeScript","Tailwind CSS"],year:"2026",context:"Side project"},{name:"Otopaholic",tagline:"Full-stack e-commerce for Thailand's local OTOP goods.",description:"A full-stack e-commerce platform for Thailand's OTOP (One Tambon One Product) program. I worked across the stack — React on the front, Node/Express and MongoDB on the back — and learned more about making real product decisions than I did about code.",url:"https://github.com/InsanelyGood/InsanelyGood-OTOP",stack:["React","Node.js","Express","MongoDB"],year:"2019",context:"University \xb7 Group project"},{name:"Face Emotion Result",tagline:"Real-time face emotion recognition with a Postgres dashboard.",description:"A computer vision pipeline that detects faces in real time, classifies emotional state, and streams results to a Postgres-backed dashboard. Built on top of an existing university research project — I extended the model serving layer and wrote the web app that visualises aggregate emotion data as time-series graphs.",url:"https://github.com/dacharat/face_emotion_result",stack:["Python","Django","TensorFlow","Keras","OpenCV","PostgreSQL"],year:"2019",context:"Internship \xb7 Offenburg University"},{name:"IP Subnet Calculator",tagline:"A web tool for calculating subnets, masks, and host ranges.",description:"A web tool for calculating IP subnets, network masks, and host ranges. Small in scope, but the first time I felt the satisfaction of shipping something other people actually used.",url:"https://github.com/dacharat/IP-subnet-calculator",stack:["React","Firebase"],year:"2018",context:"University \xb7 Group project"},{name:"Math Master Game",tagline:"A desktop math game built in Java + JavaFX.",description:"A desktop math game built in Java + JavaFX with MySQL for score tracking. My first real encounter with OOP beyond classroom exercises — inheritance, polymorphism, and a lot of refactoring.",url:"https://github.com/dacharat/Math-Master-Game",stack:["Java","JavaFX","MySQL"],year:"2018",context:"University \xb7 OOP final project"},{name:"Took-took 4.0",tagline:"An IoT application for Bangkok's iconic tuk-tuks.",description:"A group project that pushed me to work with hardware sensors and real-time data for the first time.",url:"https://github.com/took-took-4/took-took4",stack:["JavaScript","HTML","CSS","IoT"],year:"2018",context:"University \xb7 Group project"}],eq=a.Ay.div`
   margin-top: clamp(40px, 6vw, 64px);
-`,eq=a.Ay.div`
+`,eV=a.Ay.div`
   margin-top: clamp(32px, 5vw, 56px);
   display: grid;
   grid-template-columns: 1fr;
@@ -702,12 +720,12 @@
   @media (min-width: 720px) {
     grid-template-columns: repeat(2, 1fr);
   }
-`,eV=()=>{let[e,...t]=eX;return(0,n.jsx)(d,{children:(0,n.jsxs)(c,{children:[(0,n.jsxs)(i.P.div,{...g,children:[(0,n.jsx)(x,{children:"03 \xb7 Projects"}),(0,n.jsx)(h,{children:"Things I've built along the way."}),(0,n.jsx)(u,{children:"A handful of projects from school, internships, and weekends — kept here because each one taught me something I still use today."})]}),(0,n.jsx)(eY,{children:(0,n.jsx)(eU,{data:e})}),(0,n.jsx)(eq,{children:t.map(e=>(0,n.jsx)(eK,{data:e},e.name))})]})})};var eZ=r(8122);let e0=(0,a.Ay)(d)`
+`,eZ=()=>{let[e,...t]=eY;return(0,n.jsx)(d,{children:(0,n.jsxs)(c,{children:[(0,n.jsxs)(i.P.div,{...g,children:[(0,n.jsx)(x,{children:"03 \xb7 Projects"}),(0,n.jsx)(h,{children:"Things I've built along the way."}),(0,n.jsx)(u,{children:"A handful of projects from school, internships, and weekends — kept here because each one taught me something I still use today."})]}),(0,n.jsx)(eq,{children:(0,n.jsx)(eK,{data:e})}),(0,n.jsx)(eV,{children:t.map(e=>(0,n.jsx)(eX,{data:e},e.name))})]})})};var e0=r(8122);let e1=(0,a.Ay)(d)`
   background-color: ${e=>{let{theme:t}=e;return t.surface}};
   border-top: 1px solid ${e=>{let{theme:t}=e;return t.border}};
   position: relative;
   overflow: hidden;
-`,e1=a.Ay.div`
+`,e2=a.Ay.div`
   position: absolute;
   bottom: -30%;
   left: 50%;
@@ -724,14 +742,14 @@
   );
   filter: blur(80px);
   pointer-events: none;
-`,e2=a.Ay.div`
+`,e6=a.Ay.div`
   position: relative;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 32px;
-`,e6=a.Ay.h2`
+`,e5=a.Ay.h2`
   font-size: clamp(2.25rem, 6vw, 4.5rem);
   letter-spacing: -0.035em;
   line-height: 1.05;
@@ -747,7 +765,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
-`,e5=a.Ay.a`
+`,e4=a.Ay.a`
   display: inline-flex;
   align-items: center;
   gap: 14px;
@@ -765,7 +783,7 @@
     transform: translateY(-2px);
     box-shadow: 0 16px 40px ${e=>{let{theme:t}=e;return t.accent}}55;
   }
-`,e4=a.Ay.div`
+`,e3=a.Ay.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -793,7 +811,7 @@
     border-color: ${e=>{let{theme:t}=e;return t.borderStrong}};
     background-color: ${e=>{let{theme:t}=e;return t.surfaceAlt}};
   }
-`,e3=a.Ay.footer`
+`,e7=a.Ay.footer`
   margin-top: clamp(80px, 10vw, 140px);
   padding-top: 32px;
   border-top: 1px solid ${e=>{let{theme:t}=e;return t.border}};
@@ -806,7 +824,7 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: ${e=>{let{theme:t}=e;return t.textSubtle}};
-`,e7=()=>(0,n.jsxs)(e0,{children:[(0,n.jsx)(e1,{}),(0,n.jsx)(c,{children:(0,n.jsxs)(i.P.div,{...g,children:[(0,n.jsxs)(e2,{children:[(0,n.jsx)(x,{children:"04 \xb7 Contact"}),(0,n.jsxs)(e6,{children:["Got something interesting to ",(0,n.jsx)("span",{children:"build together?"})]}),(0,n.jsx)(p,{children:"Open to chats about backend, distributed systems, and food."}),(0,n.jsxs)(e5,{href:"mailto:dacharat.p@ku.th?subject=Hi Jack",children:[(0,n.jsx)(eZ.pHD,{size:20}),"dacharat.p@ku.th",(0,n.jsx)(eZ.qdV,{size:18})]}),(0,n.jsxs)(e4,{children:[(0,n.jsxs)(e8,{href:"https://github.com/dacharat",target:"_blank",rel:"noopener noreferrer",children:[(0,n.jsx)(y.hL4,{})," GitHub"]}),(0,n.jsxs)(e8,{href:"https://facebook.com/dacharat.pankong",target:"_blank",rel:"noopener noreferrer",children:[(0,n.jsx)(y.D2F,{})," Facebook"]}),(0,n.jsxs)(e8,{href:"/assets/resume.pdf",target:"_blank",rel:"noopener noreferrer",children:[(0,n.jsx)(y.kl1,{})," Resume"]})]})]}),(0,n.jsxs)(e3,{children:[(0,n.jsxs)("span",{children:["\xa9 ",new Date().getFullYear()," Dacharat Pankong"]}),(0,n.jsx)("span",{children:"Built with Next.js \xb7 Designed in Bangkok"})]})]})})]});function e9(){return(0,n.jsxs)("main",{children:[(0,n.jsx)(Y,{}),(0,n.jsx)(G,{}),(0,n.jsx)("section",{id:"about",children:(0,n.jsx)(el,{})}),(0,n.jsx)("section",{id:"experience",children:(0,n.jsx)(eG,{})}),(0,n.jsx)("section",{id:"projects",children:(0,n.jsx)(eV,{})}),(0,n.jsx)("section",{id:"contact",children:(0,n.jsx)(e7,{})})]})}},7232:(e,t,r)=>{"use strict";r.d(t,{_k:()=>o,a5:()=>a,zy:()=>i});var n=r(2553);let o={bg:"#fafaf9",surface:"#ffffff",surfaceAlt:"#f4f4f3",text:"#0a0a0a",textMuted:"#6b6b6b",textSubtle:"#9a9a9a",border:"#e5e5e3",borderStrong:"#cfcfcc",accent:"#06c755",accentHover:"#05a847",accentAlt:"#ff6b35",accentAltHover:"#e85a26",shadow:"0 1px 2px rgba(0, 0, 0, 0.04), 0 4px 16px rgba(0, 0, 0, 0.06)",shadowHover:"0 2px 4px rgba(0, 0, 0, 0.06), 0 12px 32px rgba(0, 0, 0, 0.08)"},a={bg:"#0a0a0a",surface:"#141414",surfaceAlt:"#1c1c1c",text:"#f5f5f5",textMuted:"#a3a3a3",textSubtle:"#6b6b6b",border:"#262626",borderStrong:"#383838",accent:"#1ed760",accentHover:"#33e673",accentAlt:"#ff7f50",accentAltHover:"#ff9670",shadow:"0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 16px rgba(0, 0, 0, 0.4)",shadowHover:"0 2px 4px rgba(0, 0, 0, 0.5), 0 12px 32px rgba(0, 0, 0, 0.55)"},i=(0,n.DU)`
+`,e9=()=>(0,n.jsxs)(e1,{children:[(0,n.jsx)(e2,{}),(0,n.jsx)(c,{children:(0,n.jsxs)(i.P.div,{...g,children:[(0,n.jsxs)(e6,{children:[(0,n.jsx)(x,{children:"04 \xb7 Contact"}),(0,n.jsxs)(e5,{children:["Got something interesting to ",(0,n.jsx)("span",{children:"build together?"})]}),(0,n.jsx)(p,{children:"Open to chats about backend, distributed systems, and food."}),(0,n.jsxs)(e4,{href:"mailto:dacharat.p@ku.th?subject=Hi Jack",children:[(0,n.jsx)(e0.pHD,{size:20}),"dacharat.p@ku.th",(0,n.jsx)(e0.qdV,{size:18})]}),(0,n.jsxs)(e3,{children:[(0,n.jsxs)(e8,{href:"https://github.com/dacharat",target:"_blank",rel:"noopener noreferrer",children:[(0,n.jsx)(y.hL4,{})," GitHub"]}),(0,n.jsxs)(e8,{href:"https://facebook.com/dacharat.pankong",target:"_blank",rel:"noopener noreferrer",children:[(0,n.jsx)(y.D2F,{})," Facebook"]}),(0,n.jsxs)(e8,{href:"/assets/resume.pdf",target:"_blank",rel:"noopener noreferrer",children:[(0,n.jsx)(y.kl1,{})," Resume"]})]})]}),(0,n.jsxs)(e7,{children:[(0,n.jsxs)("span",{children:["\xa9 ",new Date().getFullYear()," Dacharat Pankong"]}),(0,n.jsx)("span",{children:"Built with Next.js \xb7 Designed in Bangkok"})]})]})})]});function te(){return(0,n.jsxs)("main",{children:[(0,n.jsx)(Y,{}),(0,n.jsx)(G,{}),(0,n.jsx)("section",{id:"about",children:(0,n.jsx)(el,{})}),(0,n.jsx)("section",{id:"experience",children:(0,n.jsx)(eG,{})}),(0,n.jsx)("section",{id:"projects",children:(0,n.jsx)(eZ,{})}),(0,n.jsx)("section",{id:"contact",children:(0,n.jsx)(e9,{})})]})}},7232:(e,t,r)=>{"use strict";r.d(t,{_k:()=>o,a5:()=>a,zy:()=>i});var n=r(2553);let o={bg:"#fafaf9",surface:"#ffffff",surfaceAlt:"#f4f4f3",text:"#0a0a0a",textMuted:"#6b6b6b",textSubtle:"#9a9a9a",border:"#e5e5e3",borderStrong:"#cfcfcc",accent:"#06c755",accentHover:"#05a847",accentAlt:"#ff6b35",accentAltHover:"#e85a26",shadow:"0 1px 2px rgba(0, 0, 0, 0.04), 0 4px 16px rgba(0, 0, 0, 0.06)",shadowHover:"0 2px 4px rgba(0, 0, 0, 0.06), 0 12px 32px rgba(0, 0, 0, 0.08)"},a={bg:"#0a0a0a",surface:"#141414",surfaceAlt:"#1c1c1c",text:"#f5f5f5",textMuted:"#a3a3a3",textSubtle:"#6b6b6b",border:"#262626",borderStrong:"#383838",accent:"#1ed760",accentHover:"#33e673",accentAlt:"#ff7f50",accentAltHover:"#ff9670",shadow:"0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 16px rgba(0, 0, 0, 0.4)",shadowHover:"0 2px 4px rgba(0, 0, 0, 0.5), 0 12px 32px rgba(0, 0, 0, 0.55)"},i=(0,n.DU)`
   *, *::before, *::after {
     box-sizing: border-box;
   }
